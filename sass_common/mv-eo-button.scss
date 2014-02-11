@@ -1,0 +1,36 @@
+%mv-ei-input-button-image {
+  background-image: url("../images/mv-ui-btn-origin.png");
+}
+
+@mixin mv-ei-input-button ($size,$color: white) {
+  @extend %mv-ei-input-button-image;
+  @if $size == 50px {
+    background-position: 0 0;
+    &:hover{
+      background-position: 0 -34px;
+    }
+  }@else if ($size == 80px) {
+    background-position: 0 -68px;
+    &:hover{
+      background-position: 0 -104px;
+    }
+    font-size: 13px;
+  }@else if ($size == 122px) {
+    padding-left: -10px;
+    background-position: 0 -140px;
+    &:hover{
+      background-position: 0 -186px;
+    }
+    font-size: 13px;
+  }
+  color: $color;
+}
+
+@mixin mv-ei-input-button-fun () {
+  background-image: url("../images/mv-ui-btn-green.png");
+  background-position: 0 0;
+  &:hover{
+    background-position: 0 -46px;
+  }
+  color: white;
+}

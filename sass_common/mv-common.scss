@@ -1,0 +1,51 @@
+$small: 50px;
+$middle: 58px;
+$large: 80px;
+$large-middle: 90px;
+$large-max: 100px;
+$larger: 122px;
+
+%mv-btn-radius {
+  border: none;
+  border-radius: 3px;
+}
+
+%mv-btn-common-images {
+  background: url("../images/mv-ui-btn-gray.png");
+}
+
+@mixin mv-button ($width : 50px,$btn-height: 26px) {
+  width: $width;
+  @if $width == 50 {
+    $btn-height: 24px;
+  }@else if ($width == 58px or $width == 80px) {
+    $btn-height: 26px;
+  }@else if ($width == 122px) {
+    $btn-height: 36px;
+  }
+  height: $btn-height;
+  @extend %mv-btn-radius;
+}
+
+@mixin mv-button-common ($size,$color: #414141) {
+  @extend %mv-btn-common-images;
+  @if $size == 50px {
+    background-position: 0 0;
+    &:hover{
+      background-position: 0 -104px;
+    }
+  }@else if ($size == 58px) {
+    background-position: 0 -68px;
+    &:hover{
+      background-position: 0 -104px;
+    }
+  }@else if ($size == 122px) {
+    padding-left: -10px;
+    background-position: 0 -140px;
+    &:hover{
+      background-position: 0 -186px;
+    }
+    font-size: 13px;
+  }
+  color: $color;
+}

@@ -1,0 +1,60 @@
+.mv-input-btn-small, .mv-input-btn-middle, .mv-input-btn-fun, .mv-input-btn-common-middle, .mv-input-btn-common-small, .mv-input-btn-set-group {
+  border: none;
+  border-radius: 3px; }
+
+.mv-input-btn-common-middle, .mv-input-btn-common-small {
+  background: url("../images/mv-ui-btn-gray.png"); }
+
+.mv-input-btn-small, .mv-input-btn-middle, .mv-input-btn-fun {
+  background-image: url("../images/mv-ui-btn-blue.png"); }
+
+.mv-input-btn-small {
+  width: 50px;
+  height: 24px;
+  background-position: 0 0;
+  color: white; }
+  .mv-input-btn-small:hover {
+    background-position: 0 -104px; }
+
+.mv-input-btn-middle {
+  width: 58px;
+  height: 26px;
+  background-position: 0 -68px;
+  color: white; }
+  .mv-input-btn-middle:hover {
+    background-position: 0 -104px; }
+
+.mv-input-btn-fun {
+  width: 122px;
+  height: 36px;
+  padding-left: -10px;
+  background-position: 0 -140px;
+  font-size: 13px;
+  color: white; }
+  .mv-input-btn-fun:hover {
+    background-position: 0 -186px; }
+
+.mv-input-btn-common-middle {
+  width: 58px;
+  height: 26px;
+  background-position: 0 -68px;
+  color: #414141; }
+  .mv-input-btn-common-middle:hover {
+    background-position: 0 -104px; }
+
+.mv-input-btn-common-small {
+  width: 50px;
+  height: 24px;
+  background-position: 0 0;
+  color: #414141; }
+  .mv-input-btn-common-small:hover {
+    background-position: 0 -104px; }
+
+.mv-input-btn-set-group {
+  width: 122px;
+  height: 36px;
+  background-image: url("../images/mv-ui-btn-gray.png");
+  background-position: 0 -140px;
+  color: #414141; }
+  .mv-input-btn-set-group:hover {
+    background-position: 0 -186px; }

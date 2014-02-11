@@ -1,0 +1,44 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/mv-ui.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "../scss_common/mv-common";
+@import "../scss_common/mv-ep-button";
+
+.mv-input-btn-small{
+  @include mv-button($small);
+  @include mv-ei-input-button($small);
+}
+.mv-input-btn-middle{
+  @include mv-button($middle);
+  @include mv-ei-input-button($middle);
+}
+.mv-input-btn-fun{
+  @include mv-button($larger);
+  @include mv-ei-input-button($larger);
+}
+.mv-input-btn-large-middle{
+  @include mv-button($large-middle);
+  @include mv-ei-input-button($large-middle);
+}
+.mv-input-btn-common-middle{
+  @include mv-button($middle);
+  @include mv-button-common($middle);
+}
+.mv-input-btn-common-small{
+  @include mv-button($small);
+  @include mv-button-common($small);
+}
+.mv-input-btn-large{
+  @include mv-button($large);
+  @include mv-ei-input-button($large);
+}
+.mv-input-btn-large-max{
+  @include mv-button($large-max);
+  @include mv-ei-input-button($large-max);
+}
+.mv-input-btn-large{
+  @include mv-button($large);
+  @include mv-ei-input-button($large);
+}

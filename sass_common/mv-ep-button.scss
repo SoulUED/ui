@@ -1,0 +1,41 @@
+%mv-ei-input-button-image {
+  background-image: url("../images/mv-ui-btn-sky.png");
+}
+
+@mixin mv-ei-input-button ($size,$color: white) {
+  @extend %mv-ei-input-button-image;
+  @if $size == 50px {
+    background-position: 0 0;
+    &:hover{
+      background-position: 0 -104px;
+    }
+  }@else if ($size == 58px) {
+    background-position: 0 -68px;
+    &:hover{
+      background-position: 0 -104px;
+    }
+  }@else if ($size == 80px) {
+      background-position: 0 -232px;
+      &:hover{
+        background-position: 0 -268px;
+      }
+  }@else if ($size == 90px) {
+    background-position: 0 -304px;
+    &:hover{
+      background-position: 0 -340px;
+    }
+  }@else if ($size == 100px) {
+    background-position: 0 -376px;
+    &:hover{
+      background-position: 0 -412px
+    }
+  }@else if ($size == 122px) {
+    padding-left: -10px;
+    background-position: 0 -140px;
+    &:hover{
+      background-position: 0 -186px;
+    }
+    font-size: 13px;
+  }
+  color: $color;
+}

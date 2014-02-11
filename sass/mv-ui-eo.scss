@@ -1,0 +1,48 @@
+@import "../scss_common/mv-common";
+@import "../scss_common/mv-eo-button";
+
+.mv-input-btn-small{
+  @include mv-button($small);
+  @include mv-ei-input-button($small);
+}
+.mv-input-btn-middle{
+  @include mv-button($middle);
+  @include mv-ei-input-button($middle);
+}
+.mv-input-btn-fun{
+  @include mv-button($larger);
+  @include mv-ei-input-button($larger);
+}
+.mv-input-btn-large-middle{
+  @include mv-button($large-middle);
+  @include mv-ei-input-button($large-middle);
+}
+.mv-input-btn-common-middle{
+  @include mv-button($middle);
+  @include mv-button-common($middle);
+}
+.mv-input-btn-common-small{
+  @include mv-button($small);
+  @include mv-button-common($small);
+}
+.mv-input-btn-large{
+  @include mv-button($large);
+  @include mv-ei-input-button($large);
+}
+.mv-input-btn-add-group{
+  @include mv-button($larger);
+  @include mv-ei-input-button-fun();
+}
+
+/*** only ep ***/
+/*.mv-input-btn-large-max{
+  @include mv-button($large-max);
+  @include mv-ei-input-button($large-max);
+}*/
+
+/***  ei not have  ***/
+/*
+.mv-input-btn-large{
+  @include mv-button($large);
+  @include mv-ei-input-button($large);
+}*/

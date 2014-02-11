@@ -1,0 +1,27 @@
+@import "../scss_common/mv-common";
+@import "../scss_common/mv-ei-button";
+
+.mv-input-btn-small{
+  @include mv-button($small);
+  @include mv-ei-input-button($small);
+}
+.mv-input-btn-middle{
+  @include mv-button($middle);
+  @include mv-ei-input-button($middle);
+}
+.mv-input-btn-fun{
+  @include mv-button($larger);
+  @include mv-ei-input-button($larger);
+}
+.mv-input-btn-common-middle{
+  @include mv-button($middle);
+  @include mv-button-common($middle);
+}
+.mv-input-btn-common-small{
+  @include mv-button($small);
+  @include mv-button-common($small);
+}
+.mv-input-btn-set-group{
+  @include mv-button($larger);
+  @include mv-ei-input-button-fun();
+}
