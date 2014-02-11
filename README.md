@@ -56,3 +56,10 @@ Button类的使用
     <input type="button" class="mv-input-btn-fun" value="计算器" />
     <input type="button" class="mv-input-btn-large-middle" value="修改匹配模式" />
     <input type="button" class="mv-input-btn-large-max" value="关键词模板下载" />
+	
+Tab类的使用
+-----------------------------------  
+### 三个平台通用
+	
+	<div class="mv-tab">文字根据产品</div>
+	<div class="mv-tab-similarity">文字根据产品</div>

@@ -49,3 +49,22 @@ $larger: 122px;
   }
   color: $color;
 }
+
+@mixin mv-tab-common ($color: white) {
+  display: inline-block;
+  width: 100px;
+  height: 35px;
+  border: 1px solid;
+  border-bottom: 0;
+  line-height: 35px;
+  background: url("../images/mv-ui-page-show.png") repeat-x;
+  color: $color;
+  font-size: 12px;
+  text-align: center;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+@mixin mv-tab-choose ($color,$x,$y) {
+  border-color: $color;
+  background-position: $x $y;
+}

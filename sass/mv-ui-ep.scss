@@ -42,3 +42,11 @@
   @include mv-button($large);
   @include mv-ei-input-button($large);
 }
+.mv-tab{
+  @include mv-tab-common();
+  @include mv-tab-choose(#6c82b4,0,-45px);
+}
+.mv-tab-similarity{
+  @include mv-tab-common(#414141);
+  @include mv-tab-choose(#dfdfdf,0,-135px);
+}

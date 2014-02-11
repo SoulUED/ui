@@ -85,3 +85,35 @@
   color: white; }
   .mv-input-btn-large:hover {
     background-position: 0 -268px; }
+
+.mv-tab {
+  display: inline-block;
+  width: 100px;
+  height: 35px;
+  border: 1px solid;
+  border-bottom: 0;
+  line-height: 35px;
+  background: url("../images/mv-ui-page-show.png") repeat-x;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  border-color: #6c82b4;
+  background-position: 0 -45px; }
+
+.mv-tab-similarity {
+  display: inline-block;
+  width: 100px;
+  height: 35px;
+  border: 1px solid;
+  border-bottom: 0;
+  line-height: 35px;
+  background: url("../images/mv-ui-page-show.png") repeat-x;
+  color: #414141;
+  font-size: 12px;
+  text-align: center;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  border-color: #dfdfdf;
+  background-position: 0 -135px; }
