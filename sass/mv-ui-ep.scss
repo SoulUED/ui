@@ -71,3 +71,9 @@
 .mv-location-nav{
   @include mv-location-nav("ep");
 }
+.mv-message-box{
+  @include mv-message-box(#d8dfeb);
+}
+.mv-message-box-common{
+  @include mv-message-box(#dee3e4);
+}

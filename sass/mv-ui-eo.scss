@@ -62,3 +62,9 @@
 .mv-location-nav{
   @include mv-location-nav("eo");
 }
+.mv-message-box{
+  @include mv-message-box(#bcdce0);
+}
+.mv-message-box-common{
+  @include mv-message-box(#dee3e4);
+}

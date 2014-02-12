@@ -111,3 +111,26 @@ location-nav类的使用
         <a href= "#"> dsp多标签测试 </a> >
         <span>流量估计 </span>
     </p>
+	
+message-box类的使用
+-----------------------------------  
+### 三个平台通用
+	
+	<div class="mv-message-box">
+        <div class="mv-message-box-head">
+            <span class="mv-box-head-text">信息标题</span>
+            <select class="mv-box-select">
+                <option value="项目选择">项目选择</option>
+            </select>
+        </div>
+        <div class="mv-message-box-content"></div>
+    </div>
+    <div class="mv-message-box-common">
+        <div class="mv-message-box-head">
+            <span class="mv-box-head-text">信息标题</span>
+            <select class="mv-box-select">
+                <option value="项目选择">项目选择</option>
+            </select>
+        </div>
+        <div class="mv-message-box-content"></div>
+    </div>>
