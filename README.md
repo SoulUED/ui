@@ -98,3 +98,16 @@ text-validate类的使用
         <input class="mv-input-text" type="text" />
         <span class="mv-validate-icon"></span>
     </div>
+
+location-nav类的使用
+-----------------------------------  
+### 三个平台通用
+	
+	标签导航页（a,span标签）可以无限拓展
+
+	<p class= "mv-location-nav">
+        <span class= "mv-location-icon"> </span>:
+        <a href= "#"> 推广计划列表 </a> >
+        <a href= "#"> dsp多标签测试 </a> >
+        <span>流量估计 </span>
+    </p>

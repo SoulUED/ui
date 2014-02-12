@@ -68,3 +68,6 @@
 .mv-text-success{
   @include mv-input-validate(100px,#96c662);
 }
+.mv-location-nav{
+  @include mv-location-nav("ep");
+}
