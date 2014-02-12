@@ -101,3 +101,24 @@
   border-top-left-radius: 3px;
   border-color: #dfdfdf;
   background-position: 0 -135px; }
+
+.mv-list-box {
+  display: inline-block;
+  position: relative;
+  height: 20px;
+  line-height: 20px;
+  padding: 0 30px 0 5px;
+  background: #818490;
+  font-size: 12px;
+  color: white; }
+  .mv-list-box span {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    right: 2px;
+    top: 3px;
+    background-image: url("../images/mv-ui-list-box.png");
+    background-position: 0 -46px; }
+    .mv-list-box span:hover {
+      background-position: 0 -69px;
+      cursor: pointer; }

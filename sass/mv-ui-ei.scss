@@ -33,3 +33,6 @@
   @include mv-tab-common(#414141);
   @include mv-tab-choose(#dfdfdf,0,-135px);
 }
+.mv-list-box{
+  @include mv-list-box(#6FA7C8);
+}

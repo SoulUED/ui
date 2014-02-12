@@ -26,34 +26,30 @@ UI使用文档
     
 Button类的使用
 -----------------------------------  
-### 聚效广告平台 
+
+### 三平台通用
 	
 	<input type="button" class="mv-input-btn-small" value="保存" />
     <input type="button" class="mv-input-btn-large" value="人群显微" />
     <input type="button" class="mv-input-btn-fun" value="涨跌榜" />
-    <input type="button" class="mv-input-btn-add-group" value="添加新分组" />
-    <input type="button" class="mv-input-btn-common-small" value="确定" />
+	<input type="button" class="mv-input-btn-common-small" value="确定" />
     <input type="button" class="mv-input-btn-common-middle" value="取消" />	
+
+### 聚效广告平台 
+	
+    <input type="button" class="mv-input-btn-add-group" value="添加新分组" />
     
 ### 聚合数据平台
 
-	<input type="button" class="mv-input-btn-large" value="自定义报表" />
-    <input type="button" class="mv-input-btn-small" value="保存" />
     <input type="button" class="mv-input-btn-middle" value="上传" />
-    <input type="button" class="mv-input-btn-fun" value="新增推广组" />
     <input type="button" class="mv-input-btn-set-group" value="设置推广组" />
-    <input type="button" class="mv-input-btn-common-small" value="确定" />
-    <input type="button" class="mv-input-btn-common-middle" value="取消" />
 
 ### 聚品广告平台
 
-	<input type="button" class="mv-input-btn-small" value="保存" />
-    <input type="button" class="mv-input-btn-large" value="人群显微" />
     <input type="button" class="mv-input-btn-common-small" value="确定" />
     <input type="button" class="mv-input-btn-common-middle" value="取消" />
     <input type="button" class="mv-input-btn-large-middle" value="修改匹配模式" />
     <input type="button" class="mv-input-btn-large-max" value="关键词模板下载" />
-    <input type="button" class="mv-input-btn-fun" value="计算器" />
     <input type="button" class="mv-input-btn-large-middle" value="修改匹配模式" />
     <input type="button" class="mv-input-btn-large-max" value="关键词模板下载" />
 	
@@ -63,3 +59,11 @@ Tab类的使用
 	
 	<div class="mv-tab">文字根据产品</div>
 	<div class="mv-tab-similarity">文字根据产品</div>
+	
+List-box类的使用
+-----------------------------------  
+### 三个平台通用
+	<div class="mv-list-box">
+        文字长度随意
+        <span></span>
+    </div>

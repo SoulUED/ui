@@ -68,3 +68,44 @@ $larger: 122px;
   border-color: $color;
   background-position: $x $y;
 }
+
+@mixin mv-list-box ($bgColor) {
+  display: inline-block;
+  position: relative;
+  height: 20px;
+  line-height: 20px;
+  padding: 0 30px 0 5px;
+  background: $bgColor;
+  font-size: 12px;
+  color: white;
+  span {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    right: 2px;
+    top: 3px;
+    background-image: url("../images/mv-ui-list-box.png");
+    @if ($bgColor == #6FA7C8) {
+      background-position: 0 0;
+      &:hover{
+        background-position: 0 -23px;
+        cursor: pointer;
+      }
+    }
+    @if ($bgColor == #818490) {
+      background-position: 0 -46px;
+      &:hover{
+        background-position: 0 -69px;
+        cursor: pointer;
+      }
+    }
+    @if ($bgColor == #A0B89A) {
+      background-position: 0 -92px;
+      &:hover{
+        background-position: 0 -115px;
+        cursor: pointer;
+      }
+    }
+
+  }
+}
