@@ -182,4 +182,52 @@
   padding-left: 5px;
   border: 1px solid #CDCDCD; }
   .mv-input-text:focus {
+    outline: 0;
     border-color: #A5A8AF; }
+
+.mv-text-danger {
+  display: inline-block;
+  color: red; }
+  .mv-text-danger input[type="text"] {
+    width: 100px;
+    height: 26px;
+    padding-left: 5px;
+    border: 1px solid #CDCDCD;
+    border: 1px solid red; }
+    .mv-text-danger input[type="text"]:focus {
+      outline: 0;
+      border-color: #A5A8AF; }
+  .mv-text-danger .mv-validate-icon {
+    position: relative;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    top: 3px;
+    background: url("../images/mv-ui-notify.png"); }
+  .mv-text-danger .mv-danger-text {
+    display: block;
+    font-size: 12px; }
+
+.mv-text-success {
+  display: inline-block;
+  color: #96c662; }
+  .mv-text-success input[type="text"] {
+    width: 100px;
+    height: 26px;
+    padding-left: 5px;
+    border: 1px solid #CDCDCD;
+    border: 1px solid #96c662; }
+    .mv-text-success input[type="text"]:focus {
+      outline: 0;
+      border-color: #A5A8AF; }
+  .mv-text-success .mv-validate-icon {
+    position: relative;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    top: 3px;
+    background: url("../images/mv-ui-notify.png");
+    background-position: 0 -25px; }
+  .mv-text-success .mv-danger-text {
+    display: block;
+    font-size: 12px; }

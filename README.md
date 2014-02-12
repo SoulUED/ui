@@ -85,3 +85,16 @@ input-text类的使用
 ### 三个平台通用
 	<input type="text" class="mv-input-text" placeholder="文本提示框" />
 	<input type="password" class="mv-input-text" placeholder="密码" />
+	
+text-validate类的使用
+-----------------------------------  
+### 三个平台通用
+	<div class="mv-text-danger">
+        <input class="mv-input-text" type="text" />
+        <span class="mv-validate-icon"></span>
+        <span class="mv-danger-text">输入有误，请再次输入</span>
+    </div>
+    <div class="mv-text-success">
+        <input class="mv-input-text" type="text" />
+        <span class="mv-validate-icon"></span>
+    </div>

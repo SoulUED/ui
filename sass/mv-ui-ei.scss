@@ -45,3 +45,9 @@
 .mv-input-text{
   @include mv-input-text(100px);
 }
+.mv-text-danger{
+  @include mv-input-validate(100px,#FF0000);
+}
+.mv-text-success{
+  @include mv-input-validate(100px,#96c662);
+}
