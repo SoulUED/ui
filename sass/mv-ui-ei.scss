@@ -42,3 +42,6 @@
 .mv-notify-success{
   @include mv-notify(#A2DB77,#EBF7E1);
 }
+.mv-input-text{
+  @include mv-input-text(100px);
+}

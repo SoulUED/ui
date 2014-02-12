@@ -148,3 +148,11 @@
     top: 3px;
     background-image: url("../images/mv-ui-notify.png");
     background-position: 0 -25px; }
+
+.mv-input-text {
+  width: 100px;
+  height: 26px;
+  padding-left: 5px;
+  border: 1px solid #CDCDCD; }
+  .mv-input-text:focus {
+    border-color: #A5A8AF; }

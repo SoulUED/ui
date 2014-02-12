@@ -130,3 +130,12 @@ $larger: 122px;
     }
   }
 }
+@mixin mv-input-text ($width) {
+  width: $width;
+  height: 26px;
+  padding-left: 5px;
+  border: 1px solid #CDCDCD;
+  &:focus{
+    border-color: #A5A8AF;
+  }
+}
