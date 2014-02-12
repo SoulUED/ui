@@ -80,3 +80,8 @@ notify类的使用
         操作成功
     </div>
 
+input-text类的使用
+-----------------------------------  
+### 三个平台通用
+	<input type="text" class="mv-input-text" placeholder="文本提示框" />
+	<input type="password" class="mv-input-text" placeholder="密码" />
