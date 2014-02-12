@@ -67,3 +67,16 @@ List-box类的使用
         文字长度随意
         <span></span>
     </div>
+	
+notify类的使用
+-----------------------------------  
+### 三个平台通用
+	<div class="mv-notify-danger">
+        <span></span>
+        操作错误
+    </div>
+    <div class="mv-notify-success">
+        <span></span>
+        操作成功
+    </div>
+

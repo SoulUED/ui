@@ -44,3 +44,9 @@
 .mv-list-box{
   @include mv-list-box(#818490);
 }
+.mv-notify-danger{
+  @include mv-notify(#F87E7E,#FEE0E9);
+}
+.mv-notify-success{
+  @include mv-notify(#A2DB77,#EBF7E1);
+}
