@@ -247,3 +247,38 @@ $larger: 122px;
     }
   }
 }
+
+@mixin mv-load ($bgColor) {
+  display: inline-block;
+  width: 262px;
+  height: 76px;
+  padding: 1px;
+  border: 3px solid #404040;
+  background: white;
+  .mv-load-ing{
+    width: 100%;
+    height: 100%;
+    background: #EFF0F0;
+    text-align: center;
+    p{
+      position: relative;
+      top: 20px;
+      font-size: 13px;
+    }
+  }
+  .mv-load{
+    position: relative;
+    width: 210px;
+    height: 12px;
+    margin: 0 auto;
+    padding: 1px;
+    top: 10px;
+    border: 1px solid #CFD3D3;
+    background: white;
+  }
+  .mv-load-style{
+    width: 210px;
+    height: 100%;
+    background: $bgColor;
+  }
+}

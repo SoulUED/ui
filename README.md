@@ -133,4 +133,17 @@ message-box类的使用
             </select>
         </div>
         <div class="mv-message-box-content"></div>
-    </div>>
+    </div>
+	
+load-state类的使用
+-----------------------------------  
+### 三个平台通用
+	
+	<div class="mv-load-state">
+        <div class="mv-load-ing">
+            <p>数据加载中</p>
+            <div class="mv-load">
+                <div class="mv-load-style"></div>
+            </div>
+        </div>
+    </div>

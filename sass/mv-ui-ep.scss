@@ -77,3 +77,6 @@
 .mv-message-box-common{
   @include mv-message-box(#dee3e4);
 }
+.mv-load-state{
+  @include mv-load(#8CC860);
+}
