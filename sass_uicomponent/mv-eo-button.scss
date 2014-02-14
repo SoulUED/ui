@@ -1,9 +1,9 @@
-%mv-ei-input-button-image {
+%mv-dmp-input-button-image {
   background-image: url("../images/mv-ui-btn-origin.png");
 }
 
-@mixin mv-ei-input-button ($size,$color: white) {
-  @extend %mv-ei-input-button-image;
+@mixin mv-dmp-input-button ($size,$color: white) {
+  @extend %mv-dmp-input-button-image;
   @if $size == 50px {
     background-position: 0 0;
     &:hover{
@@ -26,7 +26,7 @@
   color: $color;
 }
 
-@mixin mv-ei-input-button-fun () {
+@mixin mv-dmp-input-button-fun () {
   background-image: url("../images/mv-ui-btn-green.png");
   background-position: 0 0;
   &:hover{

@@ -1,9 +1,9 @@
-%mv-ei-input-button-image {
+%mv-atd-input-button-image {
   background-image: url("../images/mv-ui-btn-sky.png");
 }
 
-@mixin mv-ei-input-button ($size,$color: white) {
-  @extend %mv-ei-input-button-image;
+@mixin mv-atd-input-button ($size,$color: white) {
+  @extend %mv-atd-input-button-image;
   @if $size == 50px {
     background-position: 0 0;
     &:hover{

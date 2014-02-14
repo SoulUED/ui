@@ -1,5 +1,4 @@
-@import "../sass_uicomponent/mv-uicomponent";
-@import "../sass_uicomponent/mv-ei-button";
+@import "../sass_uicomponent/mv-button";
 @import "../sass_uicomponent/mv-progress-bar";
 @import "../sass_uicomponent/mv-message-box";
 @import "../sass_uicomponent/mv-location-nav";
@@ -12,15 +11,15 @@
 
 .mv-input-btn-small{
   @include mv-button($small);
-  @include mv-ei-input-button($small);
+  @include mv-dsp-input-button($small);
 }
 .mv-input-btn-middle{
   @include mv-button($middle);
-  @include mv-ei-input-button($middle);
+  @include mv-dsp-input-button($middle);
 }
 .mv-input-btn-fun{
   @include mv-button($larger);
-  @include mv-ei-input-button($larger);
+  @include mv-dsp-input-button($larger);
 }
 .mv-input-btn-common-middle{
   @include mv-button($middle);
@@ -32,7 +31,7 @@
 }
 .mv-input-btn-set-group{
   @include mv-button($larger);
-  @include mv-ei-input-button-fun();
+  @include mv-dsp-input-button-fun();
 }
 .mv-tab{
   @include mv-tab-common();
