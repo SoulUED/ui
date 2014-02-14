@@ -1,10 +1,14 @@
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/mv-ui.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import "../sass_uicomponent/mv-uicomponent";
+@import "../sass_uicomponent/mv-eo-button";
+@import "../sass_uicomponent/mv-progress-bar";
+@import "../sass_uicomponent/mv-message-box";
+@import "../sass_uicomponent/mv-location-nav";
+@import "../sass_uicomponent/mv-input-vaildate";
+@import "../sass_uicomponent/mv-input-text";
+@import "../sass_uicomponent/mv-notify";
+@import "../sass_uicomponent/mv-list-box";
+@import "../sass_uicomponent/mv-tab-page";
 
-@import "../scss_common/mv-common";
-@import "../scss_common/mv-ep-button";
 
 .mv-input-btn-small{
   @include mv-button($small);
@@ -34,24 +38,20 @@
   @include mv-button($large);
   @include mv-ei-input-button($large);
 }
-.mv-input-btn-large-max{
-  @include mv-button($large-max);
-  @include mv-ei-input-button($large-max);
-}
-.mv-input-btn-large{
-  @include mv-button($large);
-  @include mv-ei-input-button($large);
+.mv-input-btn-add-group{
+  @include mv-button($larger);
+  @include mv-ei-input-button-fun();
 }
 .mv-tab{
   @include mv-tab-common();
-  @include mv-tab-choose(#6c82b4,0,-45px);
+  @include mv-tab-choose(#92a9b4,0,-90px);
 }
 .mv-tab-similarity{
   @include mv-tab-common(#414141);
   @include mv-tab-choose(#dfdfdf,0,-135px);
 }
 .mv-list-box{
-  @include mv-list-box(#A0B89A);
+  @include mv-list-box(#818490);
 }
 .mv-notify-danger{
   @include mv-notify(#F87E7E,#FEE0E9);
@@ -69,14 +69,14 @@
   @include mv-input-validate(100px,#96c662);
 }
 .mv-location-nav{
-  @include mv-location-nav("ep");
+  @include mv-location-nav("eo");
 }
 .mv-message-box{
-  @include mv-message-box(#d8dfeb);
+  @include mv-message-box(#bcdce0);
 }
 .mv-message-box-common{
   @include mv-message-box(#dee3e4);
 }
 .mv-load-state{
-  @include mv-load(#8CC860);
+  @include mv-load(#F4862B);
 }

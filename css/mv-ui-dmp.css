@@ -1,0 +1,669 @@
+/* line 8, ../sass_uicomponent/mv-uicomponent.scss */
+.mv-input-btn-small, .mv-input-btn-middle, .mv-input-btn-fun, .mv-input-btn-large-middle, .mv-input-btn-common-middle, .mv-input-btn-common-small, .mv-input-btn-large, .mv-input-btn-add-group {
+  border: none;
+  border-radius: 3px;
+}
+
+/* line 13, ../sass_uicomponent/mv-uicomponent.scss */
+.mv-input-btn-common-middle, .mv-input-btn-common-small {
+  background: url("../images/mv-ui-btn-gray.png");
+}
+
+/*@mixin mv-tab-common ($color: white) {
+  display: inline-block;
+  width: 100px;
+  height: 35px;
+  border: 1px solid;
+  border-bottom: 0;
+  line-height: 35px;
+  background: url("../images/mv-ui-page-show.png") repeat-x;
+  color: $color;
+  font-size: 12px;
+  text-align: center;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+}
+@mixin mv-tab-choose ($color,$x,$y) {
+  border-color: $color;
+  background-position: $x $y;
+}*/
+/*@mixin mv-list-box ($bgColor) {
+  display: inline-block;
+  position: relative;
+  height: 20px;
+  line-height: 20px;
+  padding: 0 30px 0 5px;
+  background: $bgColor;
+  font-size: 12px;
+  color: white;
+  span {
+    position: absolute;
+    width: 13px;
+    height: 13px;
+    right: 2px;
+    top: 3px;
+    background-image: url("../images/mv-ui-list-box.png");
+    @if ($bgColor == #6FA7C8) {
+      background-position: 0 0;
+      &:hover{
+        background-position: 0 -23px;
+        cursor: pointer;
+      }
+    }
+    @if ($bgColor == #818490) {
+      background-position: 0 -46px;
+      &:hover{
+        background-position: 0 -69px;
+        cursor: pointer;
+      }
+    }
+    @if ($bgColor == #A0B89A) {
+      background-position: 0 -92px;
+      &:hover{
+        background-position: 0 -115px;
+        cursor: pointer;
+      }
+    }
+  }
+}*/
+/*@mixin mv-notify ($bdColor,$bgColor) {
+  display: inline-block;
+  width: 90px;
+  height: 34px;
+  border: 1px solid $bdColor;
+  background: $bgColor;
+  line-height: 34px;
+  font-size: 12px;
+  color: #4c4c4c;
+  text-align: center;
+  span{
+    display: inline-block;
+    position: relative;
+    width: 15px;
+    height: 15px;
+    top: 3px;
+    background-image: url("../images/mv-ui-notify.png");
+    @if ($bgColor == #EBF7E1) {
+      background-position: 0 -25px;
+    }
+  }
+}*/
+/*@mixin mv-input-text ($width) {
+  width: $width;
+  height: 26px;
+  padding-left: 5px;
+  border: 1px solid #CDCDCD;
+  &:focus{
+    outline: 0;
+    border-color: #A5A8AF;
+  }
+}*/
+/*@mixin mv-input-validate ($width,$color) {
+  display: inline-block;
+  color: $color;
+  input[type="text"] {
+    @include mv-input-text($width);
+    border: 1px solid $color;
+  }
+  .mv-validate-icon{
+    position: relative;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    top: 3px;
+    background: url("../images/mv-ui-notify.png");
+    @if ($color == #96c662) {
+      background-position: 0 -25px;
+    }
+  }
+  .mv-danger-text{
+    display: block;
+    font-size: 12px;
+  }
+}*/
+/*@mixin mv-location-nav ($t) {
+  font-size: 12px;
+  color: #4D4D4D;
+  .mv-location-icon {
+    display: inline-block;
+    position: relative;
+    width: 13px;
+    height: 11px;
+    top: 2px;
+    background: url("../images/mv-ui-location.png");
+    @if ($t == "ei") {
+      background-position: 0 0;
+    }
+    @if ($t == "ep") {
+      background-position: 0 -21px;
+    }
+    @if ($t == "eo") {
+      background-position: 0 -42px;
+    }
+  }
+  a{
+    color: #3b5998;
+  }
+}*/
+/*@mixin mv-message-box ($color) {
+  display: inline-block;
+  width: 246px;
+  min-height: 50px;
+  border: 1px solid $color;
+  padding: 1px;
+  background: white;
+  font-size: 12px;
+  .mv-message-box-head{
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    background: url("../images/mv-ui-message-box.png");
+    @if ($color == #dee3e4) {
+      background-position: 0 -92px;
+    }
+    @if ($color == #c8e2f2) {
+      background-position: 0 0;
+    }
+    @if ($color == #d8dfeb) {
+      background-position: 0 -46px;
+    }
+    @if ($color == #bcdce0) {
+      background-position: 0 -138px;
+    }
+  }
+  .mv-box-head-text{
+    float: left;
+    position: relative;
+    left: 10px;
+    @if ($color == #dee3e4) {
+      color: #414141;
+    }@else {
+      color: white;
+    }
+  }
+  .mv-box-select{
+    float: right;
+    position: relative;
+    height: 28px;
+    height: 23px\9;
+    top: 3px;
+    top: 5px\9;
+    right: 5px;
+    color: #707070;
+  }
+  .mv-message-box-content{
+    width: 100%;
+    min-height: 50px;
+    padding-top: 1px;
+    @if ($color == #dee3e4) {
+      background: #f2f3f4;
+    }@else {
+      background: white;
+    }
+  }
+}*/
+/*
+@mixin mv-load ($bgColor) {
+  display: inline-block;
+  width: 262px;
+  height: 76px;
+  padding: 1px;
+  border: 3px solid #404040;
+  background: white;
+  .mv-load-ing{
+    width: 100%;
+    height: 100%;
+    background: #EFF0F0;
+    text-align: center;
+    p{
+      position: relative;
+      top: 20px;
+      font-size: 13px;
+    }
+  }
+  .mv-load{
+    position: relative;
+    width: 210px;
+    height: 12px;
+    margin: 0 auto;
+    padding: 1px;
+    top: 10px;
+    border: 1px solid #CFD3D3;
+    background: white;
+  }
+  .mv-load-style{
+    width: 210px;
+    height: 100%;
+    background: $bgColor;
+  }
+}*/
+/* line 1, ../sass_uicomponent/mv-eo-button.scss */
+.mv-input-btn-small, .mv-input-btn-middle, .mv-input-btn-fun, .mv-input-btn-large-middle, .mv-input-btn-large {
+  background-image: url("../images/mv-ui-btn-origin.png");
+}
+
+/* line 13, ../sass/mv-ui-dmp.scss */
+.mv-input-btn-small {
+  width: 50px;
+  height: 24px;
+  background-position: 0 0;
+  color: white;
+}
+/* line 9, ../sass_uicomponent/mv-eo-button.scss */
+.mv-input-btn-small:hover {
+  background-position: 0 -34px;
+}
+
+/* line 17, ../sass/mv-ui-dmp.scss */
+.mv-input-btn-middle {
+  width: 58px;
+  height: 26px;
+  color: white;
+}
+
+/* line 21, ../sass/mv-ui-dmp.scss */
+.mv-input-btn-fun {
+  width: 122px;
+  height: 36px;
+  padding-left: -10px;
+  background-position: 0 -140px;
+  font-size: 13px;
+  color: white;
+}
+/* line 21, ../sass_uicomponent/mv-eo-button.scss */
+.mv-input-btn-fun:hover {
+  background-position: 0 -186px;
+}
+
+/* line 25, ../sass/mv-ui-dmp.scss */
+.mv-input-btn-large-middle {
+  width: 90px;
+  height: 26px;
+  color: white;
+}
+
+/* line 29, ../sass/mv-ui-dmp.scss */
+.mv-input-btn-common-middle {
+  width: 58px;
+  height: 26px;
+  background-position: 0 -68px;
+  color: #414141;
+}
+/* line 39, ../sass_uicomponent/mv-uicomponent.scss */
+.mv-input-btn-common-middle:hover {
+  background-position: 0 -104px;
+}
+
+/* line 33, ../sass/mv-ui-dmp.scss */
+.mv-input-btn-common-small {
+  width: 50px;
+  height: 24px;
+  background-position: 0 0;
+  color: #414141;
+}
+/* line 34, ../sass_uicomponent/mv-uicomponent.scss */
+.mv-input-btn-common-small:hover {
+  background-position: 0 -104px;
+}
+
+/* line 37, ../sass/mv-ui-dmp.scss */
+.mv-input-btn-large {
+  width: 80px;
+  height: 26px;
+  background-position: 0 -68px;
+  font-size: 13px;
+  color: white;
+}
+/* line 14, ../sass_uicomponent/mv-eo-button.scss */
+.mv-input-btn-large:hover {
+  background-position: 0 -104px;
+}
+
+/* line 41, ../sass/mv-ui-dmp.scss */
+.mv-input-btn-add-group {
+  width: 122px;
+  height: 36px;
+  background-image: url("../images/mv-ui-btn-green.png");
+  background-position: 0 0;
+  color: white;
+}
+/* line 32, ../sass_uicomponent/mv-eo-button.scss */
+.mv-input-btn-add-group:hover {
+  background-position: 0 -46px;
+}
+
+/* line 45, ../sass/mv-ui-dmp.scss */
+.mv-tab {
+  display: inline-block;
+  width: 100px;
+  height: 35px;
+  border: 1px solid;
+  border-bottom: 0;
+  line-height: 35px;
+  background: url("../images/mv-ui-page-show.png") repeat-x;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  border-color: #92a9b4;
+  background-position: 0 -90px;
+}
+
+/* line 49, ../sass/mv-ui-dmp.scss */
+.mv-tab-similarity {
+  display: inline-block;
+  width: 100px;
+  height: 35px;
+  border: 1px solid;
+  border-bottom: 0;
+  line-height: 35px;
+  background: url("../images/mv-ui-page-show.png") repeat-x;
+  color: #414141;
+  font-size: 12px;
+  text-align: center;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  border-color: #dfdfdf;
+  background-position: 0 -135px;
+}
+
+/* line 53, ../sass/mv-ui-dmp.scss */
+.mv-list-box {
+  display: inline-block;
+  position: relative;
+  height: 20px;
+  line-height: 20px;
+  padding: 0 30px 0 5px;
+  background: #818490;
+  font-size: 12px;
+  color: white;
+}
+/* line 10, ../sass_uicomponent/mv-list-box.scss */
+.mv-list-box span {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  right: 2px;
+  top: 3px;
+  background-image: url("../images/mv-ui-list-box.png");
+  background-position: 0 -46px;
+}
+/* line 26, ../sass_uicomponent/mv-list-box.scss */
+.mv-list-box span:hover {
+  background-position: 0 -69px;
+  cursor: pointer;
+}
+
+/* line 56, ../sass/mv-ui-dmp.scss */
+.mv-notify-danger {
+  display: inline-block;
+  width: 90px;
+  height: 34px;
+  border: 1px solid #f87e7e;
+  background: #fee0e9;
+  line-height: 34px;
+  font-size: 12px;
+  color: #4c4c4c;
+  text-align: center;
+}
+/* line 11, ../sass_uicomponent/mv-notify.scss */
+.mv-notify-danger span {
+  display: inline-block;
+  position: relative;
+  width: 15px;
+  height: 15px;
+  top: 3px;
+  background-image: url("../images/mv-ui-notify.png");
+}
+
+/* line 59, ../sass/mv-ui-dmp.scss */
+.mv-notify-success {
+  display: inline-block;
+  width: 90px;
+  height: 34px;
+  border: 1px solid #a2db77;
+  background: #ebf7e1;
+  line-height: 34px;
+  font-size: 12px;
+  color: #4c4c4c;
+  text-align: center;
+}
+/* line 11, ../sass_uicomponent/mv-notify.scss */
+.mv-notify-success span {
+  display: inline-block;
+  position: relative;
+  width: 15px;
+  height: 15px;
+  top: 3px;
+  background-image: url("../images/mv-ui-notify.png");
+  background-position: 0 -25px;
+}
+
+/* line 62, ../sass/mv-ui-dmp.scss */
+.mv-input-text {
+  width: 100px;
+  height: 26px;
+  padding-left: 5px;
+  border: 1px solid #CDCDCD;
+}
+/* line 6, ../sass_uicomponent/mv-input-text.scss */
+.mv-input-text:focus {
+  outline: 0;
+  border-color: #A5A8AF;
+}
+
+/* line 65, ../sass/mv-ui-dmp.scss */
+.mv-text-danger {
+  display: inline-block;
+  color: red;
+}
+/* line 4, ../sass_uicomponent/mv-input-vaildate.scss */
+.mv-text-danger input[type="text"] {
+  width: 100px;
+  height: 26px;
+  padding-left: 5px;
+  border: 1px solid #CDCDCD;
+  border: 1px solid red;
+}
+/* line 6, ../sass_uicomponent/mv-input-text.scss */
+.mv-text-danger input[type="text"]:focus {
+  outline: 0;
+  border-color: #A5A8AF;
+}
+/* line 8, ../sass_uicomponent/mv-input-vaildate.scss */
+.mv-text-danger .mv-validate-icon {
+  position: relative;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  top: 3px;
+  background: url("../images/mv-ui-notify.png");
+}
+/* line 19, ../sass_uicomponent/mv-input-vaildate.scss */
+.mv-text-danger .mv-danger-text {
+  display: block;
+  font-size: 12px;
+}
+
+/* line 68, ../sass/mv-ui-dmp.scss */
+.mv-text-success {
+  display: inline-block;
+  color: #96c662;
+}
+/* line 4, ../sass_uicomponent/mv-input-vaildate.scss */
+.mv-text-success input[type="text"] {
+  width: 100px;
+  height: 26px;
+  padding-left: 5px;
+  border: 1px solid #CDCDCD;
+  border: 1px solid #96c662;
+}
+/* line 6, ../sass_uicomponent/mv-input-text.scss */
+.mv-text-success input[type="text"]:focus {
+  outline: 0;
+  border-color: #A5A8AF;
+}
+/* line 8, ../sass_uicomponent/mv-input-vaildate.scss */
+.mv-text-success .mv-validate-icon {
+  position: relative;
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  top: 3px;
+  background: url("../images/mv-ui-notify.png");
+  background-position: 0 -25px;
+}
+/* line 19, ../sass_uicomponent/mv-input-vaildate.scss */
+.mv-text-success .mv-danger-text {
+  display: block;
+  font-size: 12px;
+}
+
+/* line 71, ../sass/mv-ui-dmp.scss */
+.mv-location-nav {
+  font-size: 12px;
+  color: #4D4D4D;
+}
+/* line 4, ../sass_uicomponent/mv-location-nav.scss */
+.mv-location-nav .mv-location-icon {
+  display: inline-block;
+  position: relative;
+  width: 13px;
+  height: 11px;
+  top: 2px;
+  background: url("../images/mv-ui-location.png");
+  background-position: 0 -42px;
+}
+/* line 21, ../sass_uicomponent/mv-location-nav.scss */
+.mv-location-nav a {
+  color: #3b5998;
+}
+
+/* line 74, ../sass/mv-ui-dmp.scss */
+.mv-message-box {
+  display: inline-block;
+  width: 246px;
+  min-height: 50px;
+  border: 1px solid #bcdce0;
+  padding: 1px;
+  background: white;
+  font-size: 12px;
+}
+/* line 9, ../sass_uicomponent/mv-message-box.scss */
+.mv-message-box .mv-message-box-head {
+  width: 100%;
+  height: 36px;
+  line-height: 36px;
+  background: url("../images/mv-ui-message-box.png");
+  background-position: 0 -138px;
+}
+/* line 27, ../sass_uicomponent/mv-message-box.scss */
+.mv-message-box .mv-box-head-text {
+  float: left;
+  position: relative;
+  left: 10px;
+  color: white;
+}
+/* line 37, ../sass_uicomponent/mv-message-box.scss */
+.mv-message-box .mv-box-select {
+  float: right;
+  position: relative;
+  height: 28px;
+  height: 23px\9;
+  top: 3px;
+  top: 5px\9;
+  right: 5px;
+  color: #707070;
+}
+/* line 47, ../sass_uicomponent/mv-message-box.scss */
+.mv-message-box .mv-message-box-content {
+  width: 100%;
+  min-height: 50px;
+  padding-top: 1px;
+  background: white;
+}
+
+/* line 77, ../sass/mv-ui-dmp.scss */
+.mv-message-box-common {
+  display: inline-block;
+  width: 246px;
+  min-height: 50px;
+  border: 1px solid #dee3e4;
+  padding: 1px;
+  background: white;
+  font-size: 12px;
+}
+/* line 9, ../sass_uicomponent/mv-message-box.scss */
+.mv-message-box-common .mv-message-box-head {
+  width: 100%;
+  height: 36px;
+  line-height: 36px;
+  background: url("../images/mv-ui-message-box.png");
+  background-position: 0 -92px;
+}
+/* line 27, ../sass_uicomponent/mv-message-box.scss */
+.mv-message-box-common .mv-box-head-text {
+  float: left;
+  position: relative;
+  left: 10px;
+  color: #414141;
+}
+/* line 37, ../sass_uicomponent/mv-message-box.scss */
+.mv-message-box-common .mv-box-select {
+  float: right;
+  position: relative;
+  height: 28px;
+  height: 23px\9;
+  top: 3px;
+  top: 5px\9;
+  right: 5px;
+  color: #707070;
+}
+/* line 47, ../sass_uicomponent/mv-message-box.scss */
+.mv-message-box-common .mv-message-box-content {
+  width: 100%;
+  min-height: 50px;
+  padding-top: 1px;
+  background: #f2f3f4;
+}
+
+/* line 80, ../sass/mv-ui-dmp.scss */
+.mv-load-state {
+  display: inline-block;
+  width: 262px;
+  height: 76px;
+  padding: 1px;
+  border: 3px solid #404040;
+  background: white;
+}
+/* line 8, ../sass_uicomponent/mv-progress-bar.scss */
+.mv-load-state .mv-load-ing {
+  width: 100%;
+  height: 100%;
+  background: #EFF0F0;
+  text-align: center;
+}
+/* line 13, ../sass_uicomponent/mv-progress-bar.scss */
+.mv-load-state .mv-load-ing p {
+  position: relative;
+  top: 20px;
+  font-size: 13px;
+}
+/* line 19, ../sass_uicomponent/mv-progress-bar.scss */
+.mv-load-state .mv-load {
+  position: relative;
+  width: 210px;
+  height: 12px;
+  margin: 0 auto;
+  padding: 1px;
+  top: 10px;
+  border: 1px solid #CFD3D3;
+  background: white;
+}
+/* line 29, ../sass_uicomponent/mv-progress-bar.scss */
+.mv-load-state .mv-load-style {
+  width: 210px;
+  height: 100%;
+  background: #f4862b;
+}

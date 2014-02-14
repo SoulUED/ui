@@ -1,0 +1,57 @@
+@mixin mv-message-box ($color) {
+  display: inline-block;
+  width: 246px;
+  min-height: 50px;
+  border: 1px solid $color;
+  padding: 1px;
+  background: white;
+  font-size: 12px;
+  .mv-message-box-head{
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    background: url("../images/mv-ui-message-box.png");
+    @if ($color == #dee3e4) {
+      background-position: 0 -92px;
+    }
+    @if ($color == #c8e2f2) {
+      background-position: 0 0;
+    }
+    @if ($color == #d8dfeb) {
+      background-position: 0 -46px;
+    }
+    @if ($color == #bcdce0) {
+      background-position: 0 -138px;
+    }
+  }
+  .mv-box-head-text{
+    float: left;
+    position: relative;
+    left: 10px;
+    @if ($color == #dee3e4) {
+      color: #414141;
+    }@else {
+      color: white;
+    }
+  }
+  .mv-box-select{
+    float: right;
+    position: relative;
+    height: 28px;
+    height: 23px\9;
+    top: 3px;
+    top: 5px\9;
+    right: 5px;
+    color: #707070;
+  }
+  .mv-message-box-content{
+    width: 100%;
+    min-height: 50px;
+    padding-top: 1px;
+    @if ($color == #dee3e4) {
+      background: #f2f3f4;
+    }@else {
+      background: white;
+    }
+  }
+}

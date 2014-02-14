@@ -50,7 +50,7 @@ $larger: 122px;
   color: $color;
 }
 
-@mixin mv-tab-common ($color: white) {
+/*@mixin mv-tab-common ($color: white) {
   display: inline-block;
   width: 100px;
   height: 35px;
@@ -67,9 +67,9 @@ $larger: 122px;
 @mixin mv-tab-choose ($color,$x,$y) {
   border-color: $color;
   background-position: $x $y;
-}
+}*/
 
-@mixin mv-list-box ($bgColor) {
+/*@mixin mv-list-box ($bgColor) {
   display: inline-block;
   position: relative;
   height: 20px;
@@ -107,8 +107,9 @@ $larger: 122px;
       }
     }
   }
-}
-@mixin mv-notify ($bdColor,$bgColor) {
+}*/
+
+/*@mixin mv-notify ($bdColor,$bgColor) {
   display: inline-block;
   width: 90px;
   height: 34px;
@@ -129,8 +130,9 @@ $larger: 122px;
       background-position: 0 -25px;
     }
   }
-}
-@mixin mv-input-text ($width) {
+}*/
+
+/*@mixin mv-input-text ($width) {
   width: $width;
   height: 26px;
   padding-left: 5px;
@@ -139,9 +141,9 @@ $larger: 122px;
     outline: 0;
     border-color: #A5A8AF;
   }
-}
+}*/
 
-@mixin mv-input-validate ($width,$color) {
+/*@mixin mv-input-validate ($width,$color) {
   display: inline-block;
   color: $color;
   input[type="text"] {
@@ -163,9 +165,9 @@ $larger: 122px;
     display: block;
     font-size: 12px;
   }
-}
+}*/
 
-@mixin mv-location-nav ($t) {
+/*@mixin mv-location-nav ($t) {
   font-size: 12px;
   color: #4D4D4D;
   .mv-location-icon {
@@ -188,9 +190,9 @@ $larger: 122px;
   a{
     color: #3b5998;
   }
-}
+}*/
 
-@mixin mv-message-box ($color) {
+/*@mixin mv-message-box ($color) {
   display: inline-block;
   width: 246px;
   min-height: 50px;
@@ -246,8 +248,9 @@ $larger: 122px;
       background: white;
     }
   }
-}
+}*/
 
+/*
 @mixin mv-load ($bgColor) {
   display: inline-block;
   width: 262px;
@@ -281,4 +284,4 @@ $larger: 122px;
     height: 100%;
     background: $bgColor;
   }
-}
+}*/

@@ -1,0 +1,23 @@
+@mixin mv-input-validate ($width,$color) {
+  display: inline-block;
+  color: $color;
+  input[type="text"] {
+    @include mv-input-text($width);
+    border: 1px solid $color;
+  }
+  .mv-validate-icon{
+    position: relative;
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    top: 3px;
+    background: url("../images/mv-ui-notify.png");
+    @if ($color == #96c662) {
+      background-position: 0 -25px;
+    }
+  }
+  .mv-danger-text{
+    display: block;
+    font-size: 12px;
+  }
+}

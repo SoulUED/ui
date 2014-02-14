@@ -1,5 +1,13 @@
-@import "../scss_common/mv-common";
-@import "../scss_common/mv-ei-button";
+@import "../sass_uicomponent/mv-uicomponent";
+@import "../sass_uicomponent/mv-ep-button";
+@import "../sass_uicomponent/mv-progress-bar";
+@import "../sass_uicomponent/mv-message-box";
+@import "../sass_uicomponent/mv-location-nav";
+@import "../sass_uicomponent/mv-input-vaildate";
+@import "../sass_uicomponent/mv-input-text";
+@import "../sass_uicomponent/mv-notify";
+@import "../sass_uicomponent/mv-list-box";
+@import "../sass_uicomponent/mv-tab-page";
 
 .mv-input-btn-small{
   @include mv-button($small);
@@ -13,6 +21,10 @@
   @include mv-button($larger);
   @include mv-ei-input-button($larger);
 }
+.mv-input-btn-large-middle{
+  @include mv-button($large-middle);
+  @include mv-ei-input-button($large-middle);
+}
 .mv-input-btn-common-middle{
   @include mv-button($middle);
   @include mv-button-common($middle);
@@ -21,20 +33,28 @@
   @include mv-button($small);
   @include mv-button-common($small);
 }
-.mv-input-btn-set-group{
-  @include mv-button($larger);
-  @include mv-ei-input-button-fun();
+.mv-input-btn-large{
+  @include mv-button($large);
+  @include mv-ei-input-button($large);
+}
+.mv-input-btn-large-max{
+  @include mv-button($large-max);
+  @include mv-ei-input-button($large-max);
+}
+.mv-input-btn-large{
+  @include mv-button($large);
+  @include mv-ei-input-button($large);
 }
 .mv-tab{
   @include mv-tab-common();
-  @include mv-tab-choose(#0d60bf,0,0);
+  @include mv-tab-choose(#6c82b4,0,-45px);
 }
 .mv-tab-similarity{
   @include mv-tab-common(#414141);
   @include mv-tab-choose(#dfdfdf,0,-135px);
 }
 .mv-list-box{
-  @include mv-list-box(#6FA7C8);
+  @include mv-list-box(#A0B89A);
 }
 .mv-notify-danger{
   @include mv-notify(#F87E7E,#FEE0E9);
@@ -52,14 +72,15 @@
   @include mv-input-validate(100px,#96c662);
 }
 .mv-location-nav{
-  @include mv-location-nav("ei");
+  @include mv-location-nav("ep");
 }
 .mv-message-box{
-  @include mv-message-box(#c8e2f2);
+  @include mv-message-box(#d8dfeb);
 }
 .mv-message-box-common{
   @include mv-message-box(#dee3e4);
 }
+/*progress bar*/
 .mv-load-state{
-  @include mv-load(#40ACDB);
+  @include mv-load(#8CC860);
 }

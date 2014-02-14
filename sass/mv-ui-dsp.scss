@@ -1,5 +1,14 @@
-@import "../scss_common/mv-common";
-@import "../scss_common/mv-eo-button";
+@import "../sass_uicomponent/mv-uicomponent";
+@import "../sass_uicomponent/mv-ei-button";
+@import "../sass_uicomponent/mv-progress-bar";
+@import "../sass_uicomponent/mv-message-box";
+@import "../sass_uicomponent/mv-location-nav";
+@import "../sass_uicomponent/mv-input-vaildate";
+@import "../sass_uicomponent/mv-input-text";
+@import "../sass_uicomponent/mv-notify";
+@import "../sass_uicomponent/mv-list-box";
+@import "../sass_uicomponent/mv-tab-page";
+
 
 .mv-input-btn-small{
   @include mv-button($small);
@@ -13,10 +22,6 @@
   @include mv-button($larger);
   @include mv-ei-input-button($larger);
 }
-.mv-input-btn-large-middle{
-  @include mv-button($large-middle);
-  @include mv-ei-input-button($large-middle);
-}
 .mv-input-btn-common-middle{
   @include mv-button($middle);
   @include mv-button-common($middle);
@@ -25,24 +30,20 @@
   @include mv-button($small);
   @include mv-button-common($small);
 }
-.mv-input-btn-large{
-  @include mv-button($large);
-  @include mv-ei-input-button($large);
-}
-.mv-input-btn-add-group{
+.mv-input-btn-set-group{
   @include mv-button($larger);
   @include mv-ei-input-button-fun();
 }
 .mv-tab{
   @include mv-tab-common();
-  @include mv-tab-choose(#92a9b4,0,-90px);
+  @include mv-tab-choose(#0d60bf,0,0);
 }
 .mv-tab-similarity{
   @include mv-tab-common(#414141);
   @include mv-tab-choose(#dfdfdf,0,-135px);
 }
 .mv-list-box{
-  @include mv-list-box(#818490);
+  @include mv-list-box(#6FA7C8);
 }
 .mv-notify-danger{
   @include mv-notify(#F87E7E,#FEE0E9);
@@ -60,14 +61,14 @@
   @include mv-input-validate(100px,#96c662);
 }
 .mv-location-nav{
-  @include mv-location-nav("eo");
+  @include mv-location-nav("ei");
 }
 .mv-message-box{
-  @include mv-message-box(#bcdce0);
+  @include mv-message-box(#c8e2f2);
 }
 .mv-message-box-common{
   @include mv-message-box(#dee3e4);
 }
 .mv-load-state{
-  @include mv-load(#F4862B);
+  @include mv-load(#40ACDB);
 }
