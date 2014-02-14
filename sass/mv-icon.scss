@@ -1,0 +1,111 @@
+@import "compass/utilities/sprites";
+@import "icon/*.png";
+
+
+@mixin mv-icon-state-tag($size,$img) {
+  display: inline-block;
+  width: $size;
+  height: $size;
+  @include icon-sprite($img);
+}
+
+@mixin mv-icon-fun ($sizeW,$sizeH,$img) {
+  display: inline-block;
+  width: $sizeW;
+  height: $sizeH;
+  @include icon-sprite($img);
+}
+
+%mv-icon{
+  background: url('../images/icon-se374eac2b5.png') no-repeat;
+}
+
+/*state tag*/
+.mv-state-tag-suc-32{
+   @extend %mv-icon;
+   @include mv-icon-state-tag(32px,icon1);
+ }
+.mv-state-tag-part-32{
+  @extend %mv-icon;
+  @include mv-icon-state-tag(32px,icon2);
+}
+.mv-state-tag-err-32{
+  @extend %mv-icon;
+  @include mv-icon-state-tag(32px,icon3);
+}
+.mv-state-tag-suc-20{
+  @extend %mv-icon;
+  @include mv-icon-state-tag(20px,icon4);
+}
+.mv-state-tag-part-20{
+  @extend %mv-icon;
+  @include mv-icon-state-tag(20px,icon5);
+}
+.mv-state-tag-err-20{
+  @extend %mv-icon;
+  @include mv-icon-state-tag(20px,icon6);
+}
+
+/*icon fun*/
+.mv-fun-download-dsp{
+   @extend %mv-icon;
+   @include mv-icon-fun(11px,14px,icon7);
+ }
+.mv-fun-modify-dsp{
+  @extend %mv-icon;
+  @include mv-icon-fun(14px,14px,icon8);
+}
+.mv-fun-cancel-dsp{
+  @extend %mv-icon;
+  @include mv-icon-fun(14px,14px,icon9);
+}
+.mv-fun-lock-dsp{
+  @extend %mv-icon;
+  @include mv-icon-fun(14px,14px,icon10);
+}
+.mv-fun-delete-dsp{
+  @extend %mv-icon;
+  @include mv-icon-fun(14px,14px,icon11);
+}
+
+.mv-fun-download-dmp{
+  @extend %mv-icon;
+  @include mv-icon-fun(11px,14px,icon12);
+}
+.mv-fun-modify-dmp{
+  @extend %mv-icon;
+  @include mv-icon-fun(14px,14px,icon13);
+}
+.mv-fun-cancel-dmp{
+  @extend %mv-icon;
+  @include mv-icon-fun(14px,14px,icon14);
+}
+.mv-fun-lock-dmp{
+  @extend %mv-icon;
+  @include mv-icon-fun(14px,14px,icon15);
+}
+.mv-fun-delete-dmp{
+  @extend %mv-icon;
+  @include mv-icon-fun(14px,14px,icon16);
+}
+
+.mv-fun-download-atd{
+  @extend %mv-icon;
+  @include mv-icon-fun(11px,14px,icon17);
+}
+.mv-fun-modify-atd{
+  @extend %mv-icon;
+  @include mv-icon-fun(14px,14px,icon18);
+}
+.mv-fun-cancel-atd{
+  @extend %mv-icon;
+  @include mv-icon-fun(14px,14px,icon19);
+}
+.mv-fun-lock-atd{
+  @extend %mv-icon;
+  @include mv-icon-fun(14px,14px,icon20);
+}
+.mv-fun-delete-atd{
+  @extend %mv-icon;
+  @include mv-icon-fun(14px,14px,icon21);
+}

@@ -16,36 +16,31 @@
 }
 
 /*dsp button*/
-/* line 1, ../sass_uicomponent/mv-ep-button.scss */
-.mv-input-btn-small, .mv-input-btn-middle, .mv-input-btn-fun, .mv-input-btn-large-middle, .mv-input-btn-large, .mv-input-btn-large-max {
-  background-image: url("../images/mv-ui-btn-sky.png");
-}
-
-/* line 12, ../sass/mv-ui-atd.scss */
+/* line 11, ../sass/mv-ui-atd.scss */
 .mv-input-btn-small {
   width: 50px;
   height: 24px;
   background-position: 0 0;
   color: white;
 }
-/* line 9, ../sass_uicomponent/mv-ep-button.scss */
+/* line 99, ../sass_uicomponent/mv-button.scss */
 .mv-input-btn-small:hover {
   background-position: 0 -104px;
 }
 
-/* line 16, ../sass/mv-ui-atd.scss */
+/* line 15, ../sass/mv-ui-atd.scss */
 .mv-input-btn-middle {
   width: 58px;
   height: 26px;
   background-position: 0 -68px;
   color: white;
 }
-/* line 14, ../sass_uicomponent/mv-ep-button.scss */
+/* line 104, ../sass_uicomponent/mv-button.scss */
 .mv-input-btn-middle:hover {
   background-position: 0 -104px;
 }
 
-/* line 20, ../sass/mv-ui-atd.scss */
+/* line 19, ../sass/mv-ui-atd.scss */
 .mv-input-btn-fun {
   width: 122px;
   height: 36px;
@@ -54,24 +49,24 @@
   font-size: 13px;
   color: white;
 }
-/* line 35, ../sass_uicomponent/mv-ep-button.scss */
+/* line 125, ../sass_uicomponent/mv-button.scss */
 .mv-input-btn-fun:hover {
   background-position: 0 -186px;
 }
 
-/* line 24, ../sass/mv-ui-atd.scss */
+/* line 23, ../sass/mv-ui-atd.scss */
 .mv-input-btn-large-middle {
   width: 90px;
   height: 26px;
   background-position: 0 -304px;
   color: white;
 }
-/* line 24, ../sass_uicomponent/mv-ep-button.scss */
+/* line 114, ../sass_uicomponent/mv-button.scss */
 .mv-input-btn-large-middle:hover {
   background-position: 0 -340px;
 }
 
-/* line 28, ../sass/mv-ui-atd.scss */
+/* line 27, ../sass/mv-ui-atd.scss */
 .mv-input-btn-common-middle {
   width: 58px;
   height: 26px;
@@ -83,7 +78,7 @@
   background-position: 0 -104px;
 }
 
-/* line 32, ../sass/mv-ui-atd.scss */
+/* line 31, ../sass/mv-ui-atd.scss */
 .mv-input-btn-common-small {
   width: 50px;
   height: 24px;
@@ -95,43 +90,43 @@
   background-position: 0 -104px;
 }
 
-/* line 36, ../sass/mv-ui-atd.scss */
+/* line 35, ../sass/mv-ui-atd.scss */
 .mv-input-btn-large {
   width: 80px;
   height: 26px;
   background-position: 0 -232px;
   color: white;
 }
-/* line 19, ../sass_uicomponent/mv-ep-button.scss */
+/* line 109, ../sass_uicomponent/mv-button.scss */
 .mv-input-btn-large:hover {
   background-position: 0 -268px;
 }
 
-/* line 40, ../sass/mv-ui-atd.scss */
+/* line 39, ../sass/mv-ui-atd.scss */
 .mv-input-btn-large-max {
   width: 100px;
   height: 26px;
   background-position: 0 -376px;
   color: white;
 }
-/* line 29, ../sass_uicomponent/mv-ep-button.scss */
+/* line 119, ../sass_uicomponent/mv-button.scss */
 .mv-input-btn-large-max:hover {
   background-position: 0 -412px;
 }
 
-/* line 44, ../sass/mv-ui-atd.scss */
+/* line 43, ../sass/mv-ui-atd.scss */
 .mv-input-btn-large {
   width: 80px;
   height: 26px;
   background-position: 0 -232px;
   color: white;
 }
-/* line 19, ../sass_uicomponent/mv-ep-button.scss */
+/* line 109, ../sass_uicomponent/mv-button.scss */
 .mv-input-btn-large:hover {
   background-position: 0 -268px;
 }
 
-/* line 48, ../sass/mv-ui-atd.scss */
+/* line 47, ../sass/mv-ui-atd.scss */
 .mv-tab {
   display: inline-block;
   width: 100px;
@@ -149,7 +144,7 @@
   background-position: 0 -45px;
 }
 
-/* line 52, ../sass/mv-ui-atd.scss */
+/* line 51, ../sass/mv-ui-atd.scss */
 .mv-tab-similarity {
   display: inline-block;
   width: 100px;
@@ -167,7 +162,7 @@
   background-position: 0 -135px;
 }
 
-/* line 56, ../sass/mv-ui-atd.scss */
+/* line 55, ../sass/mv-ui-atd.scss */
 .mv-list-box {
   display: inline-block;
   position: relative;
@@ -194,7 +189,7 @@
   cursor: pointer;
 }
 
-/* line 59, ../sass/mv-ui-atd.scss */
+/* line 58, ../sass/mv-ui-atd.scss */
 .mv-notify-danger {
   display: inline-block;
   width: 90px;
@@ -216,7 +211,7 @@
   background-image: url("../images/mv-ui-notify.png");
 }
 
-/* line 62, ../sass/mv-ui-atd.scss */
+/* line 61, ../sass/mv-ui-atd.scss */
 .mv-notify-success {
   display: inline-block;
   width: 90px;
@@ -239,7 +234,7 @@
   background-position: 0 -25px;
 }
 
-/* line 65, ../sass/mv-ui-atd.scss */
+/* line 64, ../sass/mv-ui-atd.scss */
 .mv-input-text {
   width: 100px;
   height: 26px;
@@ -252,7 +247,7 @@
   border-color: #A5A8AF;
 }
 
-/* line 68, ../sass/mv-ui-atd.scss */
+/* line 67, ../sass/mv-ui-atd.scss */
 .mv-text-danger {
   display: inline-block;
   color: red;
@@ -285,7 +280,7 @@
   font-size: 12px;
 }
 
-/* line 71, ../sass/mv-ui-atd.scss */
+/* line 70, ../sass/mv-ui-atd.scss */
 .mv-text-success {
   display: inline-block;
   color: #96c662;
@@ -319,7 +314,7 @@
   font-size: 12px;
 }
 
-/* line 74, ../sass/mv-ui-atd.scss */
+/* line 73, ../sass/mv-ui-atd.scss */
 .mv-location-nav {
   font-size: 12px;
   color: #4D4D4D;
@@ -339,7 +334,7 @@
   color: #3b5998;
 }
 
-/* line 77, ../sass/mv-ui-atd.scss */
+/* line 76, ../sass/mv-ui-atd.scss */
 .mv-message-box {
   display: inline-block;
   width: 246px;
@@ -383,7 +378,7 @@
   background: white;
 }
 
-/* line 80, ../sass/mv-ui-atd.scss */
+/* line 79, ../sass/mv-ui-atd.scss */
 .mv-message-box-common {
   display: inline-block;
   width: 246px;
@@ -428,7 +423,7 @@
 }
 
 /*progress bar*/
-/* line 84, ../sass/mv-ui-atd.scss */
+/* line 83, ../sass/mv-ui-atd.scss */
 .mv-load-state {
   display: inline-block;
   width: 262px;
