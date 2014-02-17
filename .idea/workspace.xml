@@ -22,35 +22,7 @@
     <favorites_list name="产品文件" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="demo.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/atd/demo.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="14" selection-start="3335" selection-end="3335" vertical-scroll-proportion="-1.6071428" vertical-offset="1570" max-vertical-offset="2242">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mv-icon.scss" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sass/mv-icon.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="25" selection-start="2028" selection-end="2028" vertical-scroll-proportion="0.42515925" vertical-offset="1652" max-vertical-offset="2280">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="184" column="31" selection-start="4809" selection-end="4809" vertical-scroll-proportion="0.0" vertical-offset="2891" max-vertical-offset="3610">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -274,7 +246,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../code-product" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -514,16 +486,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/atd/demo.html">
+    <entry file="file://$PROJECT_DIR$/sass/mv-icon.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="14" selection-start="3335" selection-end="3335" vertical-scroll-proportion="-1.6071428" vertical-offset="1570" max-vertical-offset="2242">
+        <state line="101" column="25" selection-start="2028" selection-end="2028" vertical-scroll-proportion="0.42515925" vertical-offset="1652" max-vertical-offset="2280">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sass/mv-icon.scss">
+    <entry file="file://$PROJECT_DIR$/atd/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="25" selection-start="2028" selection-end="2028" vertical-scroll-proportion="0.42515925" vertical-offset="1652" max-vertical-offset="2280">
+        <state line="85" column="14" selection-start="3335" selection-end="3335" vertical-scroll-proportion="0.06891271" vertical-offset="1570" max-vertical-offset="2242">
           <folding />
         </state>
       </provider>
