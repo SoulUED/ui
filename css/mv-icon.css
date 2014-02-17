@@ -1,10 +1,10 @@
 /* line 338, icon/*.png */
-.icon-sprite, .mv-state-tag-suc-32, .mv-state-tag-part-32, .mv-state-tag-err-32, .mv-state-tag-suc-20, .mv-state-tag-part-20, .mv-state-tag-err-20, .mv-fun-download-dsp, .mv-fun-modify-dsp, .mv-fun-cancel-dsp, .mv-fun-lock-dsp, .mv-fun-delete-dsp, .mv-fun-download-dmp, .mv-fun-modify-dmp, .mv-fun-cancel-dmp, .mv-fun-lock-dmp, .mv-fun-delete-dmp, .mv-fun-download-atd, .mv-fun-modify-atd, .mv-fun-cancel-atd, .mv-fun-lock-atd, .mv-fun-delete-atd {
+.icon-sprite, .mv-state-tag-suc-32, .mv-state-tag-part-32, .mv-state-tag-err-32, .mv-state-tag-suc-20, .mv-state-tag-part-20, .mv-state-tag-err-20, .mv-fun-download-dsp, .mv-fun-modify-dsp, .mv-fun-cancel-dsp, .mv-fun-lock-dsp, .mv-fun-delete-dsp, .mv-fun-download-dmp, .mv-fun-modify-dmp, .mv-fun-cancel-dmp, .mv-fun-lock-dmp, .mv-fun-delete-dmp, .mv-fun-download-atd, .mv-fun-modify-atd, .mv-fun-cancel-atd, .mv-fun-lock-atd, .mv-fun-delete-atd, .mv-fun-loop-atd {
   background: url('/images/icon-se374eac2b5.png') no-repeat;
 }
 
 /* line 19, ../sass/mv-icon.scss */
-.mv-state-tag-suc-32, .mv-state-tag-part-32, .mv-state-tag-err-32, .mv-state-tag-suc-20, .mv-state-tag-part-20, .mv-state-tag-err-20, .mv-fun-download-dsp, .mv-fun-modify-dsp, .mv-fun-cancel-dsp, .mv-fun-lock-dsp, .mv-fun-delete-dsp, .mv-fun-download-dmp, .mv-fun-modify-dmp, .mv-fun-cancel-dmp, .mv-fun-lock-dmp, .mv-fun-delete-dmp, .mv-fun-download-atd, .mv-fun-modify-atd, .mv-fun-cancel-atd, .mv-fun-lock-atd, .mv-fun-delete-atd {
+.mv-state-tag-suc-32, .mv-state-tag-part-32, .mv-state-tag-err-32, .mv-state-tag-suc-20, .mv-state-tag-part-20, .mv-state-tag-err-20, .mv-fun-download-dsp, .mv-fun-modify-dsp, .mv-fun-cancel-dsp, .mv-fun-lock-dsp, .mv-fun-delete-dsp, .mv-fun-download-dmp, .mv-fun-modify-dmp, .mv-fun-cancel-dmp, .mv-fun-lock-dmp, .mv-fun-delete-dmp, .mv-fun-download-atd, .mv-fun-modify-atd, .mv-fun-cancel-atd, .mv-fun-lock-atd, .mv-fun-delete-atd, .mv-fun-loop-atd {
   background: url("../images/icon-se374eac2b5.png") no-repeat;
 }
 
@@ -236,4 +236,16 @@
 /* line 43, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
 .mv-fun-delete-atd:hover, .mv-fun-delete-atd.icon21_hover, .mv-fun-delete-atd.icon21-hover {
   background-position: 0 -342px;
+}
+
+/* line 112, ../sass/mv-icon.scss */
+.mv-fun-loop-atd {
+  display: inline-block;
+  width: 21px;
+  height: 14px;
+  background-position: 0 -412px;
+}
+/* line 43, ../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.mv-fun-loop-atd:hover, .mv-fun-loop-atd.icon22_hover, .mv-fun-loop-atd.icon22-hover {
+  background-position: 0 -426px;
 }

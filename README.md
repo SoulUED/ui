@@ -6,7 +6,7 @@ UI使用文档
 
   暂定
   
-  		聚效广告平台 -> mv-ui-ei.css  -> mv-ui-ei.scss 
+  		聚效广告平台 -> mv-ui-dsp.css  -> mv-ui-dsp.scss
 
   		聚合数据平台 -> mv-ui-eo.css  -> mv-ui-eo.scss
 
@@ -147,3 +147,39 @@ load-state类的使用
             </div>
         </div>
     </div>
+
+icon类的使用
+-----------------------------------
+###三平台通用
+
+    <i class="mv-state-tag-suc-32"></i>
+    <i class="mv-state-tag-part-32"></i>
+    <i class="mv-state-tag-err-32"></i>
+
+    <i class="mv-state-tag-suc-20"></i>
+    <i class="mv-state-tag-part-20"></i>
+    <i class="mv-state-tag-err-20"></i>
+
+###聚效广告平台
+
+    <i class="mv-fun-download-dsp"></i>
+    <i class="mv-fun-modify-dsp"></i>
+    <i class="mv-fun-cancel-dsp"></i>
+    <i class="mv-fun-lock-dsp"></i>
+    <i class="mv-fun-delete-dsp"></i>
+
+###聚品广告平台
+
+    <i class="mv-fun-download-dmp"></i>
+    <i class="mv-fun-modify-dmp"></i>
+    <i class="mv-fun-cancel-dmp"></i>
+    <i class="mv-fun-lock-dmp"></i>
+    <i class="mv-fun-delete-dmp"></i>
+
+###聚合广告平台
+
+    <i class="mv-fun-download-atd"></i>
+    <i class="mv-fun-modify-atd"></i>
+    <i class="mv-fun-cancel-atd"></i>
+    <i class="mv-fun-lock-atd"></i>
+    <i class="mv-fun-delete-atd"></i>
