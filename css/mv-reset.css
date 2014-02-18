@@ -1,0 +1,108 @@
+@charset "UTF-8";
+/*
+ * @ name : reset.scss
+ * @ version : 0.2
+ * @ description : mediav UI 的 reset部分
+ * @ author : 潘国伟 pangw@mediav.com
+ * @ update : 2014-01-22
+*/
+/* line 15, ../sass/mv-reset.scss */
+html, body, h1, h2, h3, h4, h5, h6, hr, object, iframe, p, blockquote,
+dl, dt, dd, ul, ol, li,
+pre,
+form, fieldset, legend, button, input, textarea,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 25, ../sass/mv-reset.scss */
+html {
+  font-size: 100%;
+  line-height: 1;
+}
+
+/* line 30, ../sass/mv-reset.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 34, ../sass/mv-reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 39, ../sass/mv-reset.scss */
+caption, th, td {
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 44, ../sass/mv-reset.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 47, ../sass/mv-reset.scss */
+a:hover, a:active {
+  outline: 0;
+}
+
+/* line 51, ../sass/mv-reset.scss */
+img {
+  max-width: 100%;
+  /* Set a maxium relative to the parent */
+  width: auto\9;
+  /* IE7-8 need help adjusting responsive images */
+  height: auto;
+  /* Part 2: Scale the height according to the width, otherwise you get stretching */
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+/* line 61, ../sass/mv-reset.scss */
+button,
+input {
+  *overflow: visible;
+  line-height: normal;
+}
+
+/* line 68, ../sass/mv-reset.scss */
+button,
+html input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+/* line 72, ../sass/mv-reset.scss */
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+/* line 78, ../sass/mv-reset.scss */
+article, aside, figure, footer, header, hgroup, nav, section {
+  display: block;
+}
+
+/* line 82, ../sass/mv-reset.scss */
+audio, canvas, video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+/* line 91, ../sass/mv-reset.scss */
+body,
+button, input, select, textarea {
+  font: 12px/1.5 Helvetica, Tahoma, Arial, "Microsoft YaHei", STXihei;
+}

@@ -1,0 +1,94 @@
+/*
+ * @ name : reset.scss
+ * @ version : 0.2
+ * @ description : mediav UI 的 reset部分
+ * @ author : 潘国伟 pangw@mediav.com
+ * @ update : 2014-01-22
+*/
+
+html, body, h1, h2, h3, h4, h5, h6, hr, object, iframe, p, blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
+table, caption, tbody, tfoot, thead, tr, th, td, /* table elements 表格元素 */
+article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video /* HTML5 elements HTML5标签元素 */
+{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+// Base settings
+html {
+  font-size: 100%;
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+a { 
+  text-decoration: none; 
+}
+a:hover, a:active {
+  outline: 0;
+}
+
+img {
+  max-width: 100%; /* Set a maxium relative to the parent */
+  width: auto\9; /* IE7-8 need help adjusting responsive images */
+  height: auto; /* Part 2: Scale the height according to the width, otherwise you get stretching */
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+button,
+input {
+  *overflow: visible; 
+  line-height: normal; 
+}
+button,
+html input[type="button"], 
+input[type="reset"],
+input[type="submit"] {
+    -webkit-appearance: button; // types in iOS.
+    cursor: pointer; 
+}
+textarea {
+  overflow: auto; // in IE6-9
+  vertical-align: top; 
+}
+
+// HTML5 element (Display in IE6-9 and FF3)
+article, aside, figure, footer, header, hgroup, nav, section {
+  display: block;
+}
+
+audio, canvas, video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+
+// set inherit font
+body,
+button, input, select, textarea /* for ie */ {
+	font: 12px/1.5 Helvetica, Tahoma, Arial, "Microsoft YaHei", STXihei ;
+}
+
