@@ -462,3 +462,18 @@
   height: 100%;
   background: #8cc860;
 }
+
+/* line 36, ../sass_uicomponent/mv-progress-bar.scss */
+.mv-center-progress {
+  position: relative;
+}
+
+/* line 39, ../sass_uicomponent/mv-progress-bar.scss */
+.mv-center-progress .mv-load-state {
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}

@@ -71,3 +71,4 @@
 .mv-load-state{
   @include mv-load(#40ACDB);
 }
+@include mv-progress-center();

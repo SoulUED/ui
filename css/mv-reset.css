@@ -1,108 +1,46 @@
-@charset "UTF-8";
 /*
- * @ name : reset.scss
- * @ version : 0.2
- * @ description : mediav UI 的 reset部分
- * @ author : 潘国伟 pangw@mediav.com
- * @ update : 2014-01-22
+Syntax error: Invalid GBK character "\xE7"
+        on line 4 of E:/www/ui/sass/mv-reset.scss
+
+1: E:/www/ui/sass/mv-reset.scss
+
+Backtrace:
+E:/www/ui/sass/mv-reset.scss:4
+D:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/engine.rb:373:in `block in check_encoding!'
+D:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/util.rb:604:in `rescue in block in check_encoding'
+D:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/util.rb:601:in `block in check_encoding'
+D:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/util.rb:600:in `each'
+D:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/util.rb:600:in `each_with_index'
+D:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/util.rb:600:in `check_encoding'
+D:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/util.rb:654:in `check_sass_encoding'
+D:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/engine.rb:372:in `check_encoding!'
+D:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/engine.rb:339:in `_to_tree'
+D:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/engine.rb:315:in `_render'
+D:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/engine.rb:262:in `render'
+D:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
+D:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+D:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `block in compile'
+D:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
+D:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
+D:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
+D:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `block (2 levels) in run'
+D:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
+D:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `block in run'
+D:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
+D:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
+D:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
+D:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:68:in `perform'
+D:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
+D:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
+D:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+D:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+D:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/bin/compass:30:in `block in <top (required)>'
+D:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/bin/compass:44:in `call'
+D:/Ruby200-x64/lib/ruby/gems/2.0.0/gems/compass-0.12.2/bin/compass:44:in `<top (required)>'
+D:/Ruby200-x64/bin/compass:23:in `load'
+D:/Ruby200-x64/bin/compass:23:in `<main>'
 */
-/* line 15, ../sass/mv-reset.scss */
-html, body, h1, h2, h3, h4, h5, h6, hr, object, iframe, p, blockquote,
-dl, dt, dd, ul, ol, li,
-pre,
-form, fieldset, legend, button, input, textarea,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
-  font-size: 100%;
-  vertical-align: baseline;
-}
-
-/* line 25, ../sass/mv-reset.scss */
-html {
-  font-size: 100%;
-  line-height: 1;
-}
-
-/* line 30, ../sass/mv-reset.scss */
-ol, ul {
-  list-style: none;
-}
-
-/* line 34, ../sass/mv-reset.scss */
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* line 39, ../sass/mv-reset.scss */
-caption, th, td {
-  font-weight: normal;
-  vertical-align: middle;
-}
-
-/* line 44, ../sass/mv-reset.scss */
-a {
-  text-decoration: none;
-}
-
-/* line 47, ../sass/mv-reset.scss */
-a:hover, a:active {
-  outline: 0;
-}
-
-/* line 51, ../sass/mv-reset.scss */
-img {
-  max-width: 100%;
-  /* Set a maxium relative to the parent */
-  width: auto\9;
-  /* IE7-8 need help adjusting responsive images */
-  height: auto;
-  /* Part 2: Scale the height according to the width, otherwise you get stretching */
-  vertical-align: middle;
-  border: 0;
-  -ms-interpolation-mode: bicubic;
-}
-
-/* line 61, ../sass/mv-reset.scss */
-button,
-input {
-  *overflow: visible;
-  line-height: normal;
-}
-
-/* line 68, ../sass/mv-reset.scss */
-button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-  -webkit-appearance: button;
-  cursor: pointer;
-}
-
-/* line 72, ../sass/mv-reset.scss */
-textarea {
-  overflow: auto;
-  vertical-align: top;
-}
-
-/* line 78, ../sass/mv-reset.scss */
-article, aside, figure, footer, header, hgroup, nav, section {
-  display: block;
-}
-
-/* line 82, ../sass/mv-reset.scss */
-audio, canvas, video {
-  display: inline-block;
-  *display: inline;
-  *zoom: 1;
-}
-
-/* line 91, ../sass/mv-reset.scss */
-body,
-button, input, select, textarea {
-  font: 12px/1.5 Helvetica, Tahoma, Arial, "Microsoft YaHei", STXihei;
-}
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: Invalid GBK character \"\xE7\"\A         on line 4 of E:/www/ui/sass/mv-reset.scss\A \A 1: E:/www/ui/sass/mv-reset.scss"; }
