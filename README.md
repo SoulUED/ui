@@ -155,7 +155,6 @@ icon类的使用
     <i class="mv-state-tag-suc-32"></i>
     <i class="mv-state-tag-part-32"></i>
     <i class="mv-state-tag-err-32"></i>
-
     <i class="mv-state-tag-suc-20"></i>
     <i class="mv-state-tag-part-20"></i>
     <i class="mv-state-tag-err-20"></i>
