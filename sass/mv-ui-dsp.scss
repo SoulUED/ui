@@ -7,6 +7,7 @@
 @import "../sass_uicomponent/mv-notify";
 @import "../sass_uicomponent/mv-list-box";
 @import "../sass_uicomponent/mv-tab-page";
+@import "../sass_uicomponent/mv-progress-index";
 
 
 .mv-input-btn-small{
@@ -71,4 +72,10 @@
 .mv-load-state{
   @include mv-load(#40ACDB);
 }
+<<<<<<< HEAD
 @include mv-progress-center();
+=======
+.mv-progress-index-dsp{
+  @include mv-progress-index();
+}
+>>>>>>> 814eef448136ddd5412783913a759f24af711580
