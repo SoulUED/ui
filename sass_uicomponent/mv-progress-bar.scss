@@ -27,8 +27,21 @@
     background: white;
   }
   .mv-load-style{
-    width: 210px;
+    width: 0;
     height: 100%;
     background: $bgColor;
+  }
+}
+@mixin mv-progress-center () {
+  .mv-center-progress {
+    position: relative;
+  }
+  .mv-center-progress .mv-load-state{
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
   }
 }

@@ -1,0 +1,37 @@
+.mv-adjustment{
+	display: inline-block;
+	width: 100px;
+	height: 24px;
+	border: 1px solid #CDCDCD;
+}
+.mv-adjustment input{
+	float: left;
+	width: 60%;
+	height: 15px;
+	padding: 2px;
+	margin: 2px;
+}
+.mv-adjustment input:focus{
+	outline: 0;
+}
+.adjustment-button{
+	float: right;
+	width: 17px;
+	height: 22px;
+	margin: 1px;
+}
+.adjustment-button span{
+	display: inline-block;
+	float: left;
+	width: 17px;
+	height: 11px;
+}
+.adjustment-button span:hover{
+	cursor: pointer;
+}
+.button-up{
+	background: url("../images/adjust-button-up.png");
+}
+.button-down{
+	background: url("../images/adjust-button-down.png");
+}
