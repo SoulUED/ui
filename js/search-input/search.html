@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="css/mv-reset.css" />
+    <link rel="stylesheet" href="css/mv-search-input.css" />
+</head>
+<body>
+    <div class= "mv-ui-search-nor">
+    </div>
+    <div class= "mv-ui-search-simple">
+    </div>
+<script src="../libs/jquey.min.js"></script>
+<script src="js/search-input.js"></script>
+<script type="text/javascript">
+    $(".mv-ui-search-nor").mvSearch(function (text) {
+        alert(text)
+    });
+
+    //$(".mv-ui-search-nor").mvSearch("请输入计划",function (text) {});
+
+    $(".mv-ui-search-simple").mvSearch("请输入",function (text) {
+        alert(text);
+    },true);
+</script>
+</body>
+</html>

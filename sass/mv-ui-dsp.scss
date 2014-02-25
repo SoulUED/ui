@@ -72,10 +72,7 @@
 .mv-load-state{
   @include mv-load(#40ACDB);
 }
-<<<<<<< HEAD
-@include mv-progress-center();
-=======
-.mv-progress-index-dsp{
-  @include mv-progress-index();
+.mv-progress-index{
+  @include mv-progress-index("dsp");
 }
->>>>>>> 814eef448136ddd5412783913a759f24af711580
+

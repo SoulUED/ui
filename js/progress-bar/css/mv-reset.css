@@ -6,7 +6,7 @@
  * @ author : 潘国伟 pangw@mediav.com
  * @ update : 2014-01-22
 */
-/* line 16, ../sass/mv-reset.scss */
+/* line 15, ../sass/mv-reset.scss */
 html, body, h1, h2, h3, h4, h5, h6, hr, object, iframe, p, blockquote,
 dl, dt, dd, ul, ol, li,
 pre,
@@ -21,40 +21,40 @@ article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, 
   vertical-align: baseline;
 }
 
-/* line 26, ../sass/mv-reset.scss */
+/* line 25, ../sass/mv-reset.scss */
 html {
   font-size: 100%;
   line-height: 1;
 }
 
-/* line 31, ../sass/mv-reset.scss */
+/* line 30, ../sass/mv-reset.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 35, ../sass/mv-reset.scss */
+/* line 34, ../sass/mv-reset.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 40, ../sass/mv-reset.scss */
+/* line 39, ../sass/mv-reset.scss */
 caption, th, td {
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 45, ../sass/mv-reset.scss */
+/* line 44, ../sass/mv-reset.scss */
 a {
   text-decoration: none;
 }
 
-/* line 48, ../sass/mv-reset.scss */
+/* line 47, ../sass/mv-reset.scss */
 a:hover, a:active {
   outline: 0;
 }
 
-/* line 52, ../sass/mv-reset.scss */
+/* line 51, ../sass/mv-reset.scss */
 img {
   max-width: 100%;
   /* Set a maxium relative to the parent */
@@ -67,14 +67,14 @@ img {
   -ms-interpolation-mode: bicubic;
 }
 
-/* line 62, ../sass/mv-reset.scss */
+/* line 61, ../sass/mv-reset.scss */
 button,
 input {
   *overflow: visible;
   line-height: normal;
 }
 
-/* line 69, ../sass/mv-reset.scss */
+/* line 68, ../sass/mv-reset.scss */
 button,
 html input[type="button"],
 input[type="reset"],
@@ -83,25 +83,25 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-/* line 73, ../sass/mv-reset.scss */
+/* line 72, ../sass/mv-reset.scss */
 textarea {
   overflow: auto;
   vertical-align: top;
 }
 
-/* line 79, ../sass/mv-reset.scss */
+/* line 78, ../sass/mv-reset.scss */
 article, aside, figure, footer, header, hgroup, nav, section {
   display: block;
 }
 
-/* line 83, ../sass/mv-reset.scss */
+/* line 82, ../sass/mv-reset.scss */
 audio, canvas, video {
   display: inline-block;
   *display: inline;
   *zoom: 1;
 }
 
-/* line 92, ../sass/mv-reset.scss */
+/* line 91, ../sass/mv-reset.scss */
 body,
 button, input, select, textarea {
   font: 12px/1.5 Helvetica, Tahoma, Arial, "Microsoft YaHei", STXihei;

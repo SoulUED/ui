@@ -16,7 +16,22 @@
 }
 
 /*dsp button*/
-/* line 11, ../sass/mv-ui-atd.scss */
+/* line 58, progress-index-dsp/*.png */
+.progress-index-dsp-sprite {
+  background: url('/images/progress-index-dsp-sc175fc3384.png') no-repeat;
+}
+
+/* line 58, progress-index-dmp/*.png */
+.progress-index-dmp-sprite {
+  background: url('/images/progress-index-dmp-s2c495924a6.png') no-repeat;
+}
+
+/* line 58, progress-index-atd/*.png */
+.progress-index-atd-sprite, .mv-progress-index .mv-progress-index-box-waite, .mv-progress-index .mv-progress-index-box-start, .mv-progress-index .mv-progress-index-box-start .mv-progress-index-2, .mv-progress-index .mv-progress-index-box-finish, .mv-progress-index .mv-progress-index-box-finish .mv-progress-index-1, .mv-progress-index .mv-progress-index-box-finish .mv-progress-index-2 {
+  background: url('/images/progress-index-atd-s7324722219.png') no-repeat;
+}
+
+/* line 12, ../sass/mv-ui-atd.scss */
 .mv-input-btn-small {
   width: 50px;
   height: 24px;
@@ -28,7 +43,7 @@
   background-position: 0 -104px;
 }
 
-/* line 15, ../sass/mv-ui-atd.scss */
+/* line 16, ../sass/mv-ui-atd.scss */
 .mv-input-btn-middle {
   width: 58px;
   height: 26px;
@@ -40,7 +55,7 @@
   background-position: 0 -104px;
 }
 
-/* line 19, ../sass/mv-ui-atd.scss */
+/* line 20, ../sass/mv-ui-atd.scss */
 .mv-input-btn-fun {
   width: 122px;
   height: 36px;
@@ -54,7 +69,7 @@
   background-position: 0 -186px;
 }
 
-/* line 23, ../sass/mv-ui-atd.scss */
+/* line 24, ../sass/mv-ui-atd.scss */
 .mv-input-btn-large-middle {
   width: 90px;
   height: 26px;
@@ -66,7 +81,7 @@
   background-position: 0 -340px;
 }
 
-/* line 27, ../sass/mv-ui-atd.scss */
+/* line 28, ../sass/mv-ui-atd.scss */
 .mv-input-btn-common-middle {
   width: 58px;
   height: 26px;
@@ -78,7 +93,7 @@
   background-position: 0 -104px;
 }
 
-/* line 31, ../sass/mv-ui-atd.scss */
+/* line 32, ../sass/mv-ui-atd.scss */
 .mv-input-btn-common-small {
   width: 50px;
   height: 24px;
@@ -90,7 +105,7 @@
   background-position: 0 -104px;
 }
 
-/* line 35, ../sass/mv-ui-atd.scss */
+/* line 36, ../sass/mv-ui-atd.scss */
 .mv-input-btn-large {
   width: 80px;
   height: 26px;
@@ -102,7 +117,7 @@
   background-position: 0 -268px;
 }
 
-/* line 39, ../sass/mv-ui-atd.scss */
+/* line 40, ../sass/mv-ui-atd.scss */
 .mv-input-btn-large-max {
   width: 100px;
   height: 26px;
@@ -114,7 +129,7 @@
   background-position: 0 -412px;
 }
 
-/* line 43, ../sass/mv-ui-atd.scss */
+/* line 44, ../sass/mv-ui-atd.scss */
 .mv-input-btn-large {
   width: 80px;
   height: 26px;
@@ -126,7 +141,7 @@
   background-position: 0 -268px;
 }
 
-/* line 47, ../sass/mv-ui-atd.scss */
+/* line 48, ../sass/mv-ui-atd.scss */
 .mv-tab {
   display: inline-block;
   width: 100px;
@@ -144,7 +159,7 @@
   background-position: 0 -45px;
 }
 
-/* line 51, ../sass/mv-ui-atd.scss */
+/* line 52, ../sass/mv-ui-atd.scss */
 .mv-tab-similarity {
   display: inline-block;
   width: 100px;
@@ -162,7 +177,7 @@
   background-position: 0 -135px;
 }
 
-/* line 55, ../sass/mv-ui-atd.scss */
+/* line 56, ../sass/mv-ui-atd.scss */
 .mv-list-box {
   display: inline-block;
   position: relative;
@@ -189,7 +204,7 @@
   cursor: pointer;
 }
 
-/* line 58, ../sass/mv-ui-atd.scss */
+/* line 59, ../sass/mv-ui-atd.scss */
 .mv-notify-danger {
   display: inline-block;
   width: 90px;
@@ -211,7 +226,7 @@
   background-image: url("../images/mv-ui-notify.png");
 }
 
-/* line 61, ../sass/mv-ui-atd.scss */
+/* line 62, ../sass/mv-ui-atd.scss */
 .mv-notify-success {
   display: inline-block;
   width: 90px;
@@ -234,7 +249,7 @@
   background-position: 0 -25px;
 }
 
-/* line 64, ../sass/mv-ui-atd.scss */
+/* line 65, ../sass/mv-ui-atd.scss */
 .mv-input-text {
   width: 100px;
   height: 26px;
@@ -247,7 +262,7 @@
   border-color: #A5A8AF;
 }
 
-/* line 67, ../sass/mv-ui-atd.scss */
+/* line 68, ../sass/mv-ui-atd.scss */
 .mv-text-danger {
   display: inline-block;
   color: red;
@@ -280,7 +295,7 @@
   font-size: 12px;
 }
 
-/* line 70, ../sass/mv-ui-atd.scss */
+/* line 71, ../sass/mv-ui-atd.scss */
 .mv-text-success {
   display: inline-block;
   color: #96c662;
@@ -314,7 +329,7 @@
   font-size: 12px;
 }
 
-/* line 73, ../sass/mv-ui-atd.scss */
+/* line 74, ../sass/mv-ui-atd.scss */
 .mv-location-nav {
   font-size: 12px;
   color: #4D4D4D;
@@ -334,7 +349,7 @@
   color: #3b5998;
 }
 
-/* line 76, ../sass/mv-ui-atd.scss */
+/* line 77, ../sass/mv-ui-atd.scss */
 .mv-message-box {
   display: inline-block;
   width: 246px;
@@ -378,7 +393,7 @@
   background: white;
 }
 
-/* line 79, ../sass/mv-ui-atd.scss */
+/* line 80, ../sass/mv-ui-atd.scss */
 .mv-message-box-common {
   display: inline-block;
   width: 246px;
@@ -423,7 +438,7 @@
 }
 
 /*progress bar*/
-/* line 83, ../sass/mv-ui-atd.scss */
+/* line 84, ../sass/mv-ui-atd.scss */
 .mv-load-state {
   display: inline-block;
   width: 262px;
@@ -458,22 +473,69 @@
 }
 /* line 29, ../sass_uicomponent/mv-progress-bar.scss */
 .mv-load-state .mv-load-style {
-  width: 210px;
+  width: 0;
   height: 100%;
   background: #8cc860;
 }
 
-/* line 36, ../sass_uicomponent/mv-progress-bar.scss */
-.mv-center-progress {
-  position: relative;
+/* line 87, ../sass/mv-ui-atd.scss */
+.mv-progress-index {
+  display: inline-block;
+  width: 588px;
+  height: 42px;
+  padding: 1px;
+  border: 1px solid #CECCD0;
+  font-size: 12px;
 }
-
-/* line 39, ../sass_uicomponent/mv-progress-bar.scss */
-.mv-center-progress .mv-load-state {
+/* line 83, ../sass_uicomponent/mv-progress-index.scss */
+.mv-progress-index .mv-progress-index-box-waite, .mv-progress-index .mv-progress-index-box-start, .mv-progress-index .mv-progress-index-box-finish {
+  position: relative;
+  width: 584px;
+  height: 38px;
+  margin: 2px auto;
+}
+/* line 88, ../sass_uicomponent/mv-progress-index.scss */
+.mv-progress-index .mv-progress-index-box-waite div, .mv-progress-index .mv-progress-index-box-start div, .mv-progress-index .mv-progress-index-box-finish div {
   position: absolute;
-  margin: auto;
-  left: 0;
+  width: 206px;
+  height: 38px;
+  text-align: center;
+  line-height: 38px;
+}
+/* line 95, ../sass_uicomponent/mv-progress-index.scss */
+.mv-progress-index .mv-progress-index-box-waite .mv-progress-index-3, .mv-progress-index .mv-progress-index-box-start .mv-progress-index-3, .mv-progress-index .mv-progress-index-box-finish .mv-progress-index-3 {
   right: 0;
-  top: 0;
-  bottom: 0;
+}
+/* line 98, ../sass_uicomponent/mv-progress-index.scss */
+.mv-progress-index .mv-progress-index-box-waite .mv-progress-index-2, .mv-progress-index .mv-progress-index-box-start .mv-progress-index-2, .mv-progress-index .mv-progress-index-box-finish .mv-progress-index-2 {
+  color: white;
+  left: 188px;
+}
+/* line 102, ../sass_uicomponent/mv-progress-index.scss */
+.mv-progress-index .mv-progress-index-box-waite .mv-progress-index-1, .mv-progress-index .mv-progress-index-box-start .mv-progress-index-1, .mv-progress-index .mv-progress-index-box-finish .mv-progress-index-1 {
+  color: white;
+}
+/* line 53, ../sass_uicomponent/mv-progress-index.scss */
+.mv-progress-index .mv-progress-index-box-waite {
+  background-position: 0 -76px;
+}
+/* line 57, ../sass_uicomponent/mv-progress-index.scss */
+.mv-progress-index .mv-progress-index-box-start {
+  background-position: 0 -76px;
+}
+/* line 60, ../sass_uicomponent/mv-progress-index.scss */
+.mv-progress-index .mv-progress-index-box-start .mv-progress-index-2 {
+  background-position: 0 0;
+}
+/* line 64, ../sass_uicomponent/mv-progress-index.scss */
+.mv-progress-index .mv-progress-index-box-finish {
+  background-position: 0 -76px;
+}
+/* line 67, ../sass_uicomponent/mv-progress-index.scss */
+.mv-progress-index .mv-progress-index-box-finish .mv-progress-index-1 {
+  background-position: 0 -38px;
+}
+/* line 70, ../sass_uicomponent/mv-progress-index.scss */
+.mv-progress-index .mv-progress-index-box-finish .mv-progress-index-2 {
+  background-position: 0 0;
 }

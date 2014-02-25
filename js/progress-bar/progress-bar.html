@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <meta/>
+    <link rel="stylesheet" href="css/mv-reset.css" />
+    <link rel="stylesheet" href="css/mv-bar-atd.css" />
+    <style>
+        #demo{
+            position: relative;
+            width: 500px;
+            height: 500px;
+            border: 1px solid black;
+            background: red;
+        }
+    </style>
+</head>
+<body>
+
+<input type="button" value="请求" class="request" />
+<div class="mv-text-box" id="demo">
+</div>
+
+<script src="../libs/jquey.min.js"></script>
+<script src="js/progress-bar.js"></script>
+<script type="text/javascript">
+    jQuery(".request").on("click",function () {
+        $("#demo").mvLoadStart();
+        setTimeout(function () {
+            $("#demo").mvLoadEnd();
+        },2000);
+    });
+</script>
+</body>
+</html>

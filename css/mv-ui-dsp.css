@@ -16,6 +16,21 @@
   background-image: url("../images/mv-ui-btn-blue.png");
 }
 
+/* line 58, progress-index-dsp/*.png */
+.progress-index-dsp-sprite, .mv-progress-index .mv-progress-index-box-waite, .mv-progress-index .mv-progress-index-box-start, .mv-progress-index .mv-progress-index-box-start .mv-progress-index-2, .mv-progress-index .mv-progress-index-box-finish, .mv-progress-index .mv-progress-index-box-finish .mv-progress-index-1, .mv-progress-index .mv-progress-index-box-finish .mv-progress-index-2 {
+  background: url('../images/progress-index-dsp-sc175fc3384.png') no-repeat;
+}
+
+/* line 58, progress-index-dmp/*.png */
+.progress-index-dmp-sprite {
+  background: url('../images/progress-index-dmp-s2c495924a6.png') no-repeat;
+}
+
+/* line 58, progress-index-atd/*.png */
+.progress-index-atd-sprite {
+  background: url('../images/progress-index-atd-s7324722219.png') no-repeat;
+}
+
 /* line 13, ../sass/mv-ui-dsp.scss */
 .mv-input-btn-small {
   width: 50px;
@@ -422,30 +437,69 @@
 }
 /* line 29, ../sass_uicomponent/mv-progress-bar.scss */
 .mv-load-state .mv-load-style {
-  width: 210px;
+  width: 0;
   height: 100%;
   background: #40acdb;
 }
 
-<<<<<<< HEAD
-/* line 36, ../sass_uicomponent/mv-progress-bar.scss */
-.mv-center-progress {
-  position: relative;
-}
-
-/* line 39, ../sass_uicomponent/mv-progress-bar.scss */
-.mv-center-progress .mv-load-state {
-  position: absolute;
-  margin: auto;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-=======
 /* line 75, ../sass/mv-ui-dsp.scss */
-.mv-progress-index-dsp {
+.mv-progress-index {
+  display: inline-block;
   width: 588px;
   height: 42px;
+  padding: 1px;
   border: 1px solid #CECCD0;
->>>>>>> 814eef448136ddd5412783913a759f24af711580
+  font-size: 12px;
+}
+/* line 83, ../sass_uicomponent/mv-progress-index.scss */
+.mv-progress-index .mv-progress-index-box-waite, .mv-progress-index .mv-progress-index-box-start, .mv-progress-index .mv-progress-index-box-finish {
+  position: relative;
+  width: 584px;
+  height: 38px;
+  margin: 2px auto;
+}
+/* line 88, ../sass_uicomponent/mv-progress-index.scss */
+.mv-progress-index .mv-progress-index-box-waite div, .mv-progress-index .mv-progress-index-box-start div, .mv-progress-index .mv-progress-index-box-finish div {
+  position: absolute;
+  width: 206px;
+  height: 38px;
+  text-align: center;
+  line-height: 38px;
+}
+/* line 95, ../sass_uicomponent/mv-progress-index.scss */
+.mv-progress-index .mv-progress-index-box-waite .mv-progress-index-3, .mv-progress-index .mv-progress-index-box-start .mv-progress-index-3, .mv-progress-index .mv-progress-index-box-finish .mv-progress-index-3 {
+  right: 0;
+}
+/* line 98, ../sass_uicomponent/mv-progress-index.scss */
+.mv-progress-index .mv-progress-index-box-waite .mv-progress-index-2, .mv-progress-index .mv-progress-index-box-start .mv-progress-index-2, .mv-progress-index .mv-progress-index-box-finish .mv-progress-index-2 {
+  color: white;
+  left: 188px;
+}
+/* line 102, ../sass_uicomponent/mv-progress-index.scss */
+.mv-progress-index .mv-progress-index-box-waite .mv-progress-index-1, .mv-progress-index .mv-progress-index-box-start .mv-progress-index-1, .mv-progress-index .mv-progress-index-box-finish .mv-progress-index-1 {
+  color: white;
+}
+/* line 7, ../sass_uicomponent/mv-progress-index.scss */
+.mv-progress-index .mv-progress-index-box-waite {
+  background-position: 0 -76px;
+}
+/* line 11, ../sass_uicomponent/mv-progress-index.scss */
+.mv-progress-index .mv-progress-index-box-start {
+  background-position: 0 -76px;
+}
+/* line 14, ../sass_uicomponent/mv-progress-index.scss */
+.mv-progress-index .mv-progress-index-box-start .mv-progress-index-2 {
+  background-position: 0 0;
+}
+/* line 18, ../sass_uicomponent/mv-progress-index.scss */
+.mv-progress-index .mv-progress-index-box-finish {
+  background-position: 0 -76px;
+}
+/* line 21, ../sass_uicomponent/mv-progress-index.scss */
+.mv-progress-index .mv-progress-index-box-finish .mv-progress-index-1 {
+  background-position: 0 -38px;
+}
+/* line 24, ../sass_uicomponent/mv-progress-index.scss */
+.mv-progress-index .mv-progress-index-box-finish .mv-progress-index-2 {
+  background-position: 0 0;
 }

@@ -1,6 +1,115 @@
-@mixin mv-progress-index () {
+@import "compass/utilities/sprites";
+@import "progress-index-dsp/*.png";
+@import "progress-index-dmp/*.png";
+@import "progress-index-atd/*.png";
+
+@mixin choose-style-dsp () {
+  .mv-progress-index-box-waite{
+    @extend %box-style;
+    @include progress-index-dsp-sprite(progress-index-normal);
+  }
+  .mv-progress-index-box-start{
+    @extend %box-style;
+    @include progress-index-dsp-sprite(progress-index-normal);
+    .mv-progress-index-2{
+      @include progress-index-dsp-sprite(progress-index-start);
+    }
+  }
+  .mv-progress-index-box-finish{
+    @extend %box-style;
+    @include progress-index-dsp-sprite(progress-index-normal);
+    .mv-progress-index-1{
+      @include progress-index-dsp-sprite(progress-index-finish);
+    }
+    .mv-progress-index-2{
+      @include progress-index-dsp-sprite(progress-index-start);
+    }
+  }
+}
+@mixin choose-style-dmp () {
+  .mv-progress-index-box-waite{
+    @extend %box-style;
+    @include progress-index-dmp-sprite(progress-index-normal);
+  }
+  .mv-progress-index-box-start{
+    @extend %box-style;
+    @include progress-index-dmp-sprite(progress-index-normal);
+    .mv-progress-index-2{
+      @include progress-index-dmp-sprite(progress-index-start);
+    }
+  }
+  .mv-progress-index-box-finish{
+    @extend %box-style;
+    @include progress-index-dmp-sprite(progress-index-normal);
+    .mv-progress-index-1{
+      @include progress-index-dmp-sprite(progress-index-finish);
+    }
+    .mv-progress-index-2{
+      @include progress-index-dmp-sprite(progress-index-start);
+    }
+  }
+}
+@mixin choose-style-atd () {
+  .mv-progress-index-box-waite{
+    @extend %box-style;
+    @include progress-index-atd-sprite(progress-index-normal);
+  }
+  .mv-progress-index-box-start{
+    @extend %box-style;
+    @include progress-index-atd-sprite(progress-index-normal);
+    .mv-progress-index-2{
+      @include progress-index-atd-sprite(progress-index-start);
+    }
+  }
+  .mv-progress-index-box-finish{
+    @extend %box-style;
+    @include progress-index-atd-sprite(progress-index-normal);
+    .mv-progress-index-1{
+      @include progress-index-atd-sprite(progress-index-finish);
+    }
+    .mv-progress-index-2{
+      @include progress-index-atd-sprite(progress-index-start);
+    }
+  }
+}
+
+@mixin mv-progress-index ($product) {
+  display: inline-block;
   width: 588px;
   height: 42px;
   padding: 1px;
   border: 1px solid #CECCD0;
+  font-size: 12px;
+  %box-style{
+    position: relative;
+    width: 584px;
+    height: 38px;
+    margin: 2px auto;
+    div{
+      position: absolute;
+      width: 206px;
+      height: 38px;
+      text-align: center;
+      line-height: 38px;
+    }
+    .mv-progress-index-3{
+      right: 0;
+    }
+    .mv-progress-index-2{
+      color: white;
+      left: 188px;
+    }
+    .mv-progress-index-1{
+      color: white;
+    }
+  }
+  @if ($product == "dsp"){
+    @include choose-style-dsp();
+  }
+  @if ($product == "dmp"){
+    @include choose-style-dmp();
+  }
+  @if ($product == "atd"){
+    @include choose-style-atd();
+  }
 }
