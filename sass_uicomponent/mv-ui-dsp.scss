@@ -1,0 +1,82 @@
+@import "mv-button";
+@import "mv-progress-bar";
+@import "mv-message-box";
+@import "mv-location-nav";
+@import "mv-input-vaildate";
+@import "mv-input-text";
+@import "mv-notify";
+@import "mv-list-box";
+@import "mv-tab-page";
+@import "mv-progress-index";
+
+
+.mv-btn{
+  @include mv-btn();
+  @include border-radius(3px);
+}
+
+.mv-btn-sure{
+  /*bdColor,startColor,endColor,textColor*/
+  @include mv-btn-color(#24A8DA,#51bde6,#17A0D3,white);
+  &:hover{
+    @include mv-btn-color(#24A8DA,#33b1e1,#128dbc,white);
+  }
+}
+.mv-btn-addGroup{
+  @include mv-btn-color(#24A8DA,#51bde6,#1AA1DA,white);
+  &:hover{
+    @include mv-btn-color(#69B0BA,#33B1E1,#148ebd,white);
+  }
+}
+
+.mv-btn-cancel{
+  @include mv-btn-color(#E3E3E3,#F6F6F6,#E4E4E4,#414141);
+  &:hover{
+    @include mv-btn-color(#D7D7D7,#EBEBEB,#DBDBDB,#414141);
+  }
+}
+@include mv-btn-icon("dsp");
+
+@include mv-btn-size;
+.mv-tab{
+  @include mv-tab-common();
+  @include mv-tab-choose(#0d60bf,0,0);
+}
+.mv-tab-similarity{
+  @include mv-tab-common(#414141);
+  @include mv-tab-choose(#dfdfdf,0,-135px);
+}
+.mv-list-box{
+  @include mv-list-box(#6FA7C8);
+}
+.mv-notify-danger{
+  @include mv-notify(#F87E7E,#FEE0E9);
+}
+.mv-notify-success{
+  @include mv-notify(#A2DB77,#EBF7E1);
+}
+.mv-input-text{
+  @include mv-input-text(100px);
+}
+.mv-text-danger{
+  @include mv-input-validate(100px,#FF0000);
+}
+.mv-text-success{
+  @include mv-input-validate(100px,#96c662);
+}
+.mv-location-nav{
+  @include mv-location-nav("ei");
+}
+.mv-message-box{
+  @include mv-message-box(#c8e2f2);
+}
+.mv-message-box-common{
+  @include mv-message-box(#dee3e4);
+}
+.mv-load-state{
+  @include mv-load(#40ACDB);
+}
+.mv-progress-index{
+  @include mv-progress-index("dsp");
+}
+

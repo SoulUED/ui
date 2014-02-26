@@ -1,0 +1,75 @@
+@import "mv-button";
+@import "mv-progress-bar";
+@import "mv-message-box";
+@import "mv-location-nav";
+@import "mv-input-vaildate";
+@import "mv-input-text";
+@import "mv-notify";
+@import "mv-list-box";
+@import "mv-tab-page";
+@import "mv-progress-index";
+
+.mv-btn{
+  @include mv-btn();
+  @include border-radius(3px);
+}
+
+.mv-btn-sure,
+.mv-btn-calculate{
+  /*bdColor,startColor,endColor,textColor*/
+  @include mv-btn-color(#438DD1,#63A0D8,#2D74B5,white);
+  &:hover{
+    @include mv-btn-color(#3E87CA,#498ECD,#2D6FAC,white);
+  }
+}
+.mv-btn-cancel{
+  @include mv-btn-color(#E3E3E3,#F6F6F6,#E4E4E4,#414141);
+  &:hover{
+    @include mv-btn-color(#D7D7D7,#EBEBEB,#DBDBDB,#414141);
+  }
+}
+@include mv-btn-icon("atd");
+@include mv-btn-size;
+
+.mv-tab{
+  @include mv-tab-common();
+  @include mv-tab-choose(#6c82b4,0,-45px);
+}
+.mv-tab-similarity{
+  @include mv-tab-common(#414141);
+  @include mv-tab-choose(#dfdfdf,0,-135px);
+}
+.mv-list-box{
+  @include mv-list-box(#A0B89A);
+}
+.mv-notify-danger{
+  @include mv-notify(#F87E7E,#FEE0E9);
+}
+.mv-notify-success{
+  @include mv-notify(#A2DB77,#EBF7E1);
+}
+.mv-input-text{
+  @include mv-input-text(100px);
+}
+.mv-text-danger{
+  @include mv-input-validate(100px,#FF0000);
+}
+.mv-text-success{
+  @include mv-input-validate(100px,#96c662);
+}
+.mv-location-nav{
+  @include mv-location-nav("ep");
+}
+.mv-message-box{
+  @include mv-message-box(#d8dfeb);
+}
+.mv-message-box-common{
+  @include mv-message-box(#dee3e4);
+}
+/*progress bar*/
+.mv-load-state{
+  @include mv-load(#8CC860);
+}
+.mv-progress-index{
+  @include mv-progress-index("atd");
+}

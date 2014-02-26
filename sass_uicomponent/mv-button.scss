@@ -1,168 +1,63 @@
-$small: 50px;
-$middle: 58px;
-$large: 80px;
-$large-middle: 90px;
-$large-max: 100px;
-$larger: 122px;
+@import "compass/css3";
+@import "compass/utilities/sprites";
+@import "icon-btn/*.png";
 
-%mv-btn-radius {
-  border: none;
-  border-radius: 3px;
+@mixin mv-btn(){
+  display: inline-block;
+  border: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  vertical-align: middle;
 }
-
-%mv-btn-gray-images {
-  background: url("../images/mv-ui-btn-gray.png");
+@mixin mv-btn-color($bdColor,$stColor,$endColor,$textColor){
+  border: 1px solid $bdColor;
+  color: $textColor;
+  background-color: $stColor;
+  @include background-image(linear-gradient(top,$stColor,$endColor));
 }
-
-@mixin mv-button ($width : 50px,$btn-height: 26px) {
-  width: $width;
-  @if $width == 50 {
-    $btn-height: 24px;
-  }@else if ($width == 58px or $width == 80px) {
-    $btn-height: 26px;
-  }@else if ($width == 122px) {
-    $btn-height: 36px;
+@mixin mv-btn-size() {
+  .mv-btn-small{
+    height: 24px;
+    line-height: 24px;
   }
-  height: $btn-height;
-  @extend %mv-btn-radius;
-}
-
-@mixin mv-button-common ($size,$color: #414141) {
-  @extend %mv-btn-gray-images;
-  @if $size == 50px {
-    background-position: 0 0;
-    &:hover{
-      background-position: 0 -104px;
-    }
-  }@else if ($size == 58px) {
-    background-position: 0 -68px;
-    &:hover{
-      background-position: 0 -104px;
-    }
-  }@else if ($size == 122px) {
-    padding-left: -10px;
-    background-position: 0 -140px;
-    &:hover{
-      background-position: 0 -186px;
-    }
+  .mv-btn-middle{
+    height: 32px;
     font-size: 13px;
+    line-height: 32px;
   }
-  color: $color;
 }
-
-%mv-dmp-input-button-image {
-  background-image: url("../images/mv-ui-btn-origin.png");
-}
-
-@mixin mv-dmp-input-button ($size,$color: white) {
-  @extend %mv-dmp-input-button-image;
-  @if $size == 50px {
-    background-position: 0 0;
-    &:hover{
-      background-position: 0 -34px;
+@mixin mv-btn-icon ($product) {
+  .mv-icon-add{
+    position: relative;
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    top: 2px;
+    @if ($product == "dsp") {
+      @include icon-btn-sprite(btn-add);
     }
-  }@else if ($size == 80px) {
-    background-position: 0 -68px;
-    &:hover{
-      background-position: 0 -104px;
+    @if ($product == "dmp"){
+      @include icon-btn-sprite(btn-add-1);
     }
-    font-size: 13px;
-  }@else if ($size == 122px) {
-    padding-left: -10px;
-    background-position: 0 -140px;
-    &:hover{
-      background-position: 0 -186px;
-    }
-    font-size: 13px;
   }
-  color: $color;
-}
-
-@mixin mv-dmp-input-button-fun () {
-  background-image: url("../images/mv-ui-btn-green.png");
-  background-position: 0 0;
-  &:hover{
-    background-position: 0 -46px;
+  @if ($product == "atd"){
+    .mv-icon-calculate {
+      position: relative;
+      display: inline-block;
+      width: 17px;
+      height: 17px;
+      top: 4px;
+      @include icon-btn-sprite(btn-cancluate);
+    }
   }
-  color: white;
-}
-
-/* atd */
-%mv-atd-input-button-image {
-  background-image: url("../images/mv-ui-btn-sky.png");
-}
-
-@mixin mv-atd-input-button ($size,$color: white) {
-  @extend %mv-atd-input-button-image;
-  @if $size == 50px {
-    background-position: 0 0;
-    &:hover{
-      background-position: 0 -104px;
+  @if ($product =="dmp") {
+    .mv-icon-upDown{
+      position: relative;
+      display: inline-block;
+      width: 14px;
+      height: 12px;
+      top: 0;
+      @include icon-btn-sprite(btn-up-down);
     }
-  }@else if ($size == 58px) {
-    background-position: 0 -68px;
-    &:hover{
-      background-position: 0 -104px;
-    }
-  }@else if ($size == 80px) {
-    background-position: 0 -232px;
-    &:hover{
-      background-position: 0 -268px;
-    }
-  }@else if ($size == 90px) {
-    background-position: 0 -304px;
-    &:hover{
-      background-position: 0 -340px;
-    }
-  }@else if ($size == 100px) {
-    background-position: 0 -376px;
-    &:hover{
-      background-position: 0 -412px
-    }
-  }@else if ($size == 122px) {
-    padding-left: -10px;
-    background-position: 0 -140px;
-    &:hover{
-      background-position: 0 -186px;
-    }
-    font-size: 13px;
   }
-  color: $color;
-}
-
-/*dsp button*/
-%mv-dsp-input-button-image {
-  background-image: url("../images/mv-ui-btn-blue.png");
-}
-
-@mixin mv-dsp-input-button ($size,$color: white) {
-  @extend %mv-dsp-input-button-image;
-  @if $size == 50px {
-    background-position: 0 0;
-    &:hover{
-      background-position: 0 -104px;
-    }
-  }@else if ($size == 58px) {
-    background-position: 0 -68px;
-    &:hover{
-      background-position: 0 -104px;
-    }
-  }@else if ($size == 122px) {
-    padding-left: -10px;
-    background-position: 0 -140px;
-    &:hover{
-      background-position: 0 -186px;
-    }
-    font-size: 13px;
-  }
-  color: $color;
-}
-
-@mixin mv-dsp-input-button-fun () {
-  background-image: url("../images/mv-ui-btn-gray.png");
-  background-position: 0 -140px;
-  &:hover{
-    background-position: 0 -186px;
-  }
-  color: #414141;
 }
